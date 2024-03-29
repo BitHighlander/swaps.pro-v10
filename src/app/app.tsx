@@ -4,57 +4,26 @@ import * as React from 'react';
 import { usePioneer } from "@coinmasters/pioneer-react"
 import { availableChainsByWallet, WalletOption } from '@coinmasters/types';
 import { useState, useEffect } from 'react';
+import { useOnStartApp } from "../utils/onStart";
+import Drawr from '../components/drawer';
+import Leaderboard from '../components/leaderboard';
+
 //components
 import {
-  Pioneer,
-  Basic,
-  Portfolio,
-  Transfer,
-  Assets,
-  Asset,
-  Amount,
-  Quote,
-  Quotes,
   Swap,
-  Track,
-  SignTransaction
 } from '@coinmasters/pioneer-lib';
 import Image from 'next/image';
 
 export default function App() {
-  const { onStart, state } = usePioneer();
-  const { api, app, assets, context } = state;
+  const onStartApp = useOnStartApp();
+  const { state } = usePioneer();
+  const { api, app, assets, context, wallets } = state;
   const [intent, setIntent] = useState('basic');
   const [tabIndex, setTabIndex] = useState(1);
   const [txHash, setTxHash] = useState();
   const [selectedAsset, setSelectedAsset] = useState({ });
+  const [isOpen, setIsOpen] = useState(false);
 
-  let onStartApp = async function(){
-    try{
-      let walletsVerbose = []
-      const { keepkeyWallet } = await import("@coinmasters/wallet-keepkey");
-      //console.log('keepkeyWallet: ', keepkeyWallet);
-
-      const pioneerSetup: any = {
-        appName: "Pioneer Template",
-        appIcon: "https://pioneers.dev/coins/pioneerMan.png",
-      };
-      const walletKeepKey = {
-        type: WalletOption.KEEPKEY,
-        icon: "https://pioneers.dev/coins/keepkey.png",
-        chains: availableChainsByWallet[WalletOption.KEEPKEY],
-        wallet: keepkeyWallet,
-        status: "offline",
-        isConnected: false,
-      };
-      //console.log('walletKeepKey: ', walletKeepKey);
-      walletsVerbose.push(walletKeepKey);
-      //console.log('walletsVerbose: ', walletsVerbose);
-      onStart(walletsVerbose, pioneerSetup);
-    }catch(e){
-      console.error("Failed to start app!")
-    }
-  }
   useEffect(() => {
     onStartApp();
   }, []);
@@ -87,9 +56,17 @@ export default function App() {
     setIntent(event.target.value);
   };
 
+  const toggleDrawer = () => setIsOpen(!isOpen);
+  const toggleShowAll = () => setShowAll(!showAll);
+  const connectWallet = (walletType) => {
+    console.log('Connecting to wallet type:', walletType);
+    // Implement your wallet connection logic here
+  };
+
 
   return (
     <>
+      <Drawr></Drawr>
       {/* Header */}
       <header className="flex justify-between items-center w-full px-10 py-5 bg-gray-100 dark:bg-gray-800">
         <div className="flex items-center gap-4">
@@ -98,6 +75,14 @@ export default function App() {
           {/* Website title */}
           <span className="text-xl font-bold">Swaps.PRO</span>
         </div>
+        <button onClick={toggleDrawer}>Connect Wallet</button>
+        <Drawr
+            isOpen={isOpen}
+            onClose={toggleDrawer}
+            wallets={wallets}
+            context={context}
+            connectWallet={connectWallet}
+        />
       </header>
 
       {/* Main Content */}
@@ -116,13 +101,12 @@ export default function App() {
             <TabPanels>
               <TabPanel>
                 Your trade history
-
                 Global trade volume
               </TabPanel>
               <TabPanel>
                 <Swap usePioneer={usePioneer}/>
               </TabPanel>
-              <TabPanel>Leaderboard</TabPanel>
+              <TabPanel><Leaderboard></Leaderboard></TabPanel>
             </TabPanels>
           </Box>
         </Tabs>
