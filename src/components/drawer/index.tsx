@@ -17,7 +17,7 @@ import {
     Button,
 } from '@chakra-ui/react';
 
-const Drawr = ({ isOpen, onClose, wallets, context, connectWallet }) => {
+const Drawr = ({ isOpen, onClose, wallets, context, connectWallet }:any) => {
     // Moved showAll state and toggle function inside the Drawr component
     const [walletsLocal, setWalletsLocal] = useState([]);
     const [showAll, setShowAll] = useState(false);
@@ -42,7 +42,7 @@ const Drawr = ({ isOpen, onClose, wallets, context, connectWallet }) => {
                             </Text>
                         )}
                         {showAll
-                            ? walletsLocal.map((wallet) => (
+                            ? walletsLocal.map((wallet: any) => (
                                 <Card key={wallet.type}>
                                     <Box
                                         key={wallet.type}
@@ -78,7 +78,7 @@ const Drawr = ({ isOpen, onClose, wallets, context, connectWallet }) => {
                             ))
                             : walletsLocal
                                 .filter((wallet:any) => wallet.wallet.isDetected)
-                                .map((wallet) => (
+                                .map((wallet: any) => (
                                     <Card key={wallet.type}>
                                         <Box
                                             key={wallet.type}

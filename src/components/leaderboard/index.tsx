@@ -41,7 +41,7 @@ const Leaderboard = () => {
                         </Tr>
                     </Thead>
                     <Tbody>
-                        {traders.map((trader, index) => (
+                        {traders.map((trader:any, index: any) => (
                             <Tr key={index}>
                                 <Td>{index + 1}</Td>
                                 <Td>{trader.name}</Td>

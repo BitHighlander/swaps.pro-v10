@@ -57,8 +57,8 @@ export default function App() {
   };
 
   const toggleDrawer = () => setIsOpen(!isOpen);
-  const toggleShowAll = () => setShowAll(!showAll);
-  const connectWallet = (walletType) => {
+  // const toggleShowAll = () => setShowAll(!showAll);
+  const connectWallet = (walletType: any) => {
     console.log('Connecting to wallet type:', walletType);
     // Implement your wallet connection logic here
   };
@@ -66,7 +66,6 @@ export default function App() {
 
   return (
     <>
-      <Drawr></Drawr>
       {/* Header */}
       <header className="flex justify-between items-center w-full px-10 py-5 bg-gray-100 dark:bg-gray-800">
         <div className="flex items-center gap-4">
