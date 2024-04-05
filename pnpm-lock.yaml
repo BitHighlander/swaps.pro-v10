@@ -7,19 +7,19 @@ settings:
 dependencies:
   '@chakra-ui/react':
     specifier: ^2.8.2
-    version: 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.73)(framer-motion@11.0.24)(react-dom@18.2.0)(react@18.2.0)
+    version: 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.73)(framer-motion@11.0.25)(react-dom@18.2.0)(react@18.2.0)
   '@coinmasters/pioneer-lib':
-    specifier: ^0.0.25
-    version: 0.0.25(@babel/core@7.24.3)(@chakra-ui/system@2.6.2)(@types/node@20.11.30)(@types/react@18.2.73)
+    specifier: latest
+    version: 0.0.27(@babel/core@7.24.3)(@chakra-ui/system@2.6.2)(@types/node@20.11.30)(@types/react@18.2.73)
   '@coinmasters/pioneer-react':
-    specifier: ^0.5.6
-    version: 0.5.6
+    specifier: latest
+    version: 0.6.1
   '@coinmasters/types':
-    specifier: ^4.6.0
-    version: 4.6.0
+    specifier: latest
+    version: 4.6.1
   '@coinmasters/wallet-keepkey':
-    specifier: ^11.0.9
-    version: 11.0.9(@coinmasters/toolbox-cosmos@9.0.9)(@coinmasters/toolbox-evm@9.0.9)(@coinmasters/toolbox-ripple@9.0.9)(@coinmasters/toolbox-utxo@9.0.9)(@keepkey/keepkey-sdk@0.2.57)(@types/node@20.11.30)(bitcoinjs-lib@5.2.0)
+    specifier: latest
+    version: 12.0.1(@coinmasters/toolbox-cosmos@10.0.1)(@coinmasters/toolbox-evm@10.0.1)(@coinmasters/toolbox-ripple@10.0.1)(@coinmasters/toolbox-utxo@10.0.1)(@keepkey/keepkey-sdk@0.2.57)(@types/node@20.11.30)(bitcoinjs-lib@5.2.0)
   axios:
     specifier: ^1.6.8
     version: 1.6.8
@@ -246,8 +246,8 @@ packages:
       '@babel/types': 7.24.0
     dev: false
 
-  /@babel/runtime-corejs3@7.24.1:
-    resolution: {integrity: sha512-T9ko/35G+Bkl+win48GduaPlhSlOjjE5s1TeiEcD+QpxlLQnoEfb/nO/T+TQqkm+ipFwORn+rB8w14iJ/uD0bg==}
+  /@babel/runtime-corejs3@7.24.4:
+    resolution: {integrity: sha512-VOQOexSilscN24VEY810G/PqtpFvx/z6UqDIjIWbDe2368HhDLkYN5TYwaEz/+eRCUkhJ2WaNLLmQAlxzfWj4w==}
     engines: {node: '>=6.9.0'}
     dependencies:
       core-js-pure: 3.36.1
@@ -296,7 +296,7 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@chakra-ui/accordion@2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.24)(react@18.2.0):
+  /@chakra-ui/accordion@2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.25)(react@18.2.0):
     resolution: {integrity: sha512-FSXRm8iClFyU+gVaXisOSEw0/4Q+qZbFRiuhIAkVU6Boj0FxAMrlo9a8AV5TuF77rgaHytCdHk0Ng+cyUijrag==}
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
@@ -310,8 +310,8 @@ packages:
       '@chakra-ui/react-use-merge-refs': 2.1.0(react@18.2.0)
       '@chakra-ui/shared-utils': 2.0.5
       '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.2.0)
-      '@chakra-ui/transition': 2.1.0(framer-motion@11.0.24)(react@18.2.0)
-      framer-motion: 11.0.24(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/transition': 2.1.0(framer-motion@11.0.25)(react@18.2.0)
+      framer-motion: 11.0.25(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
     dev: false
 
@@ -639,7 +639,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@chakra-ui/menu@2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.24)(react@18.2.0):
+  /@chakra-ui/menu@2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.25)(react@18.2.0):
     resolution: {integrity: sha512-lJS7XEObzJxsOwWQh7yfG4H8FzFPRP5hVPN/CL+JzytEINCSBvsCDHrYPQGp7jzpCi8vnTqQQGQe0f8dwnXd2g==}
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
@@ -661,12 +661,12 @@ packages:
       '@chakra-ui/react-use-update-effect': 2.1.0(react@18.2.0)
       '@chakra-ui/shared-utils': 2.0.5
       '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.2.0)
-      '@chakra-ui/transition': 2.1.0(framer-motion@11.0.24)(react@18.2.0)
-      framer-motion: 11.0.24(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/transition': 2.1.0(framer-motion@11.0.25)(react@18.2.0)
+      framer-motion: 11.0.25(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
     dev: false
 
-  /@chakra-ui/modal@2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.2.73)(framer-motion@11.0.24)(react-dom@18.2.0)(react@18.2.0):
+  /@chakra-ui/modal@2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.2.73)(framer-motion@11.0.25)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-TQv1ZaiJMZN+rR9DK0snx/OPwmtaGH1HbZtlYt4W4s6CzyK541fxLRTjIXfEzIGpvNW+b6VFuFjbcR78p4DEoQ==}
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
@@ -682,9 +682,9 @@ packages:
       '@chakra-ui/react-use-merge-refs': 2.1.0(react@18.2.0)
       '@chakra-ui/shared-utils': 2.0.5
       '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.2.0)
-      '@chakra-ui/transition': 2.1.0(framer-motion@11.0.24)(react@18.2.0)
+      '@chakra-ui/transition': 2.1.0(framer-motion@11.0.25)(react@18.2.0)
       aria-hidden: 1.2.4
-      framer-motion: 11.0.24(react-dom@18.2.0)(react@18.2.0)
+      framer-motion: 11.0.25(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-remove-scroll: 2.5.9(@types/react@18.2.73)(react@18.2.0)
@@ -700,7 +700,7 @@ packages:
       next: '>=13'
       react: '>=18'
     dependencies:
-      '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.73)(framer-motion@11.0.24)(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.73)(framer-motion@11.0.25)(react-dom@18.2.0)(react@18.2.0)
       '@emotion/cache': 11.11.0
       '@emotion/react': 11.11.4(@types/react@18.2.73)(react@18.2.0)
       next: 14.1.0(@babel/core@7.24.3)(react-dom@18.2.0)(react@18.2.0)
@@ -753,7 +753,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@chakra-ui/popover@2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.24)(react@18.2.0):
+  /@chakra-ui/popover@2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.25)(react@18.2.0):
     resolution: {integrity: sha512-K+2ai2dD0ljvJnlrzesCDT9mNzLifE3noGKZ3QwLqd/K34Ym1W/0aL1ERSynrcG78NKoXS54SdEzkhCZ4Gn/Zg==}
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
@@ -772,7 +772,7 @@ packages:
       '@chakra-ui/react-use-merge-refs': 2.1.0(react@18.2.0)
       '@chakra-ui/shared-utils': 2.0.5
       '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.2.0)
-      framer-motion: 11.0.24(react-dom@18.2.0)(react@18.2.0)
+      framer-motion: 11.0.25(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
     dev: false
 
@@ -1040,7 +1040,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@chakra-ui/react@2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.73)(framer-motion@11.0.24)(react-dom@18.2.0)(react@18.2.0):
+  /@chakra-ui/react@2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.73)(framer-motion@11.0.25)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-Hn0moyxxyCDKuR9ywYpqgX8dvjqwu9ArwpIb9wHNYjnODETjLwazgNIliCVBRcJvysGRiV51U2/JtJVrpeCjUQ==}
     peerDependencies:
       '@emotion/react': ^11.0.0
@@ -1049,7 +1049,7 @@ packages:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@chakra-ui/accordion': 2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.24)(react@18.2.0)
+      '@chakra-ui/accordion': 2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.25)(react@18.2.0)
       '@chakra-ui/alert': 2.2.2(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/avatar': 2.3.0(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/breadcrumb': 2.2.0(@chakra-ui/system@2.6.2)(react@18.2.0)
@@ -1070,11 +1070,11 @@ packages:
       '@chakra-ui/layout': 2.3.1(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/live-region': 2.1.0(react@18.2.0)
       '@chakra-ui/media-query': 3.3.0(@chakra-ui/system@2.6.2)(react@18.2.0)
-      '@chakra-ui/menu': 2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.24)(react@18.2.0)
-      '@chakra-ui/modal': 2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.2.73)(framer-motion@11.0.24)(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/menu': 2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.25)(react@18.2.0)
+      '@chakra-ui/modal': 2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.2.73)(framer-motion@11.0.25)(react-dom@18.2.0)(react@18.2.0)
       '@chakra-ui/number-input': 2.1.2(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/pin-input': 2.1.0(@chakra-ui/system@2.6.2)(react@18.2.0)
-      '@chakra-ui/popover': 2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.24)(react@18.2.0)
+      '@chakra-ui/popover': 2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.25)(react@18.2.0)
       '@chakra-ui/popper': 3.1.0(react@18.2.0)
       '@chakra-ui/portal': 2.1.0(react-dom@18.2.0)(react@18.2.0)
       '@chakra-ui/progress': 2.2.0(@chakra-ui/system@2.6.2)(react@18.2.0)
@@ -1089,7 +1089,7 @@ packages:
       '@chakra-ui/stat': 2.1.1(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/stepper': 2.3.1(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/styled-system': 2.9.2
-      '@chakra-ui/switch': 2.1.2(@chakra-ui/system@2.6.2)(framer-motion@11.0.24)(react@18.2.0)
+      '@chakra-ui/switch': 2.1.2(@chakra-ui/system@2.6.2)(framer-motion@11.0.25)(react@18.2.0)
       '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.2.0)
       '@chakra-ui/table': 2.1.0(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/tabs': 3.0.0(@chakra-ui/system@2.6.2)(react@18.2.0)
@@ -1097,14 +1097,14 @@ packages:
       '@chakra-ui/textarea': 2.1.2(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/theme': 3.3.1(@chakra-ui/styled-system@2.9.2)
       '@chakra-ui/theme-utils': 2.0.21
-      '@chakra-ui/toast': 7.0.2(@chakra-ui/system@2.6.2)(framer-motion@11.0.24)(react-dom@18.2.0)(react@18.2.0)
-      '@chakra-ui/tooltip': 2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.24)(react-dom@18.2.0)(react@18.2.0)
-      '@chakra-ui/transition': 2.1.0(framer-motion@11.0.24)(react@18.2.0)
+      '@chakra-ui/toast': 7.0.2(@chakra-ui/system@2.6.2)(framer-motion@11.0.25)(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/tooltip': 2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.25)(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/transition': 2.1.0(framer-motion@11.0.25)(react@18.2.0)
       '@chakra-ui/utils': 2.0.15
       '@chakra-ui/visually-hidden': 2.2.0(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.2.73)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.73)(react@18.2.0)
-      framer-motion: 11.0.24(react-dom@18.2.0)(react@18.2.0)
+      framer-motion: 11.0.25(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
@@ -1215,7 +1215,7 @@ packages:
       lodash.mergewith: 4.6.2
     dev: false
 
-  /@chakra-ui/switch@2.1.2(@chakra-ui/system@2.6.2)(framer-motion@11.0.24)(react@18.2.0):
+  /@chakra-ui/switch@2.1.2(@chakra-ui/system@2.6.2)(framer-motion@11.0.25)(react@18.2.0):
     resolution: {integrity: sha512-pgmi/CC+E1v31FcnQhsSGjJnOE2OcND4cKPyTE+0F+bmGm48Q/b5UmKD9Y+CmZsrt/7V3h8KNczowupfuBfIHA==}
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
@@ -1225,7 +1225,7 @@ packages:
       '@chakra-ui/checkbox': 2.3.2(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/shared-utils': 2.0.5
       '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.2.0)
-      framer-motion: 11.0.24(react-dom@18.2.0)(react@18.2.0)
+      framer-motion: 11.0.25(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
     dev: false
 
@@ -1334,7 +1334,7 @@ packages:
       '@chakra-ui/theme-tools': 2.1.2(@chakra-ui/styled-system@2.9.2)
     dev: false
 
-  /@chakra-ui/toast@7.0.2(@chakra-ui/system@2.6.2)(framer-motion@11.0.24)(react-dom@18.2.0)(react@18.2.0):
+  /@chakra-ui/toast@7.0.2(@chakra-ui/system@2.6.2)(framer-motion@11.0.25)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-yvRP8jFKRs/YnkuE41BVTq9nB2v/KDRmje9u6dgDmE5+1bFt3bwjdf9gVbif4u5Ve7F7BGk5E093ARRVtvLvXA==}
     peerDependencies:
       '@chakra-ui/system': 2.6.2
@@ -1352,12 +1352,12 @@ packages:
       '@chakra-ui/styled-system': 2.9.2
       '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.2.0)
       '@chakra-ui/theme': 3.3.1(@chakra-ui/styled-system@2.9.2)
-      framer-motion: 11.0.24(react-dom@18.2.0)(react@18.2.0)
+      framer-motion: 11.0.25(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@chakra-ui/tooltip@2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.24)(react-dom@18.2.0)(react@18.2.0):
+  /@chakra-ui/tooltip@2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.0.25)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-Rh39GBn/bL4kZpuEMPPRwYNnccRCL+w9OqamWHIB3Qboxs6h8cOyXfIdGxjo72lvhu1QI/a4KFqkM3St+WfC0A==}
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
@@ -1374,19 +1374,19 @@ packages:
       '@chakra-ui/react-use-merge-refs': 2.1.0(react@18.2.0)
       '@chakra-ui/shared-utils': 2.0.5
       '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.2.0)
-      framer-motion: 11.0.24(react-dom@18.2.0)(react@18.2.0)
+      framer-motion: 11.0.25(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@chakra-ui/transition@2.1.0(framer-motion@11.0.24)(react@18.2.0):
+  /@chakra-ui/transition@2.1.0(framer-motion@11.0.25)(react@18.2.0):
     resolution: {integrity: sha512-orkT6T/Dt+/+kVwJNy7zwJ+U2xAZ3EU7M3XCs45RBvUnZDr/u9vdmaM/3D/rOpmQJWgQBwKPJleUXrYWUagEDQ==}
     peerDependencies:
       framer-motion: '>=4.0.0'
       react: '>=18'
     dependencies:
       '@chakra-ui/shared-utils': 2.0.5
-      framer-motion: 11.0.24(react-dom@18.2.0)(react@18.2.0)
+      framer-motion: 11.0.25(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
     dev: false
 
@@ -1409,69 +1409,62 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@coinmasters/api@3.5.0:
-    resolution: {integrity: sha512-4UoMOmpEQfnap9Cu59VhNf74YWg9fDj+fhcdq5gqEpwDHDY4eaA/Jyz34T3C27gV4AGxVyhFdPNckdtMLnpOfA==}
+  /@coinmasters/api@3.6.1:
+    resolution: {integrity: sha512-0ttiJSUUGS1zd5khFg8CZHS8cdgtRzZS1Nx4kX+ljnDd5b9OvpIoRoC0nUaVWudXrEmzfrNqwHy7YFmDuZvkYw==}
     dependencies:
-      '@coinmasters/types': 4.5.0
+      '@coinmasters/types': 4.6.1
       ky: 1.1.3
     dev: false
 
-  /@coinmasters/api@3.6.0:
-    resolution: {integrity: sha512-Q0/VakyV8z/YBCrSPwYxR+HrR36r/vmRSAQvne6OqQQa7MgU20GiQV+VnVELWsq16kVjLU0LQE0PihTXYS/ASg==}
-    dependencies:
-      '@coinmasters/types': 4.6.0
-      ky: 1.1.3
-    dev: false
-
-  /@coinmasters/core@10.0.0(@coinmasters/api@3.6.0)(@coinmasters/tokens@3.6.0)(@coinmasters/toolbox-cosmos@10.0.0)(@coinmasters/toolbox-evm@10.0.0)(@coinmasters/toolbox-utxo@10.0.0)(@types/node@18.15.13):
-    resolution: {integrity: sha512-BNdf8qFf8vJWQ6akc3AmVz0umfJP5wwdto+5uupmXzyCnhom1w3ijgnfnX1SAedmmS8ngI5TNXXRiqAE3A1Glw==}
+  /@coinmasters/core@10.0.1(@coinmasters/api@3.6.1)(@coinmasters/tokens@3.6.1)(@coinmasters/toolbox-cosmos@10.0.1)(@coinmasters/toolbox-evm@10.0.1)(@coinmasters/toolbox-utxo@10.0.1)(@types/node@18.15.13):
+    resolution: {integrity: sha512-7M/h/9OnaY936DQInQXO8i0s4gSxE1pC7DfUx7xF/rBIqA5vGnmCKCQYg2ElPgsCXJK4NFkeguhs+9FPGEo1PA==}
     peerDependencies:
-      '@coinmasters/api': 3.6.0
-      '@coinmasters/tokens': 3.6.0
-      '@coinmasters/toolbox-cosmos': 10.0.0
-      '@coinmasters/toolbox-evm': 10.0.0
-      '@coinmasters/toolbox-utxo': 10.0.0
+      '@coinmasters/api': 3.6.1
+      '@coinmasters/tokens': 3.6.1
+      '@coinmasters/toolbox-cosmos': 10.0.1
+      '@coinmasters/toolbox-evm': 10.0.1
+      '@coinmasters/toolbox-utxo': 10.0.1
     dependencies:
-      '@coinmasters/api': 3.6.0
-      '@coinmasters/helpers': 10.0.0(@coinmasters/tokens@3.6.0)(@coinmasters/types@4.6.0)
-      '@coinmasters/tokens': 3.6.0
-      '@coinmasters/toolbox-cosmos': 10.0.0(@coinmasters/helpers@10.0.0)
-      '@coinmasters/toolbox-evm': 10.0.0(@coinmasters/helpers@10.0.0)
-      '@coinmasters/toolbox-utxo': 10.0.0(@coinmasters/helpers@10.0.0)
-      '@coinmasters/types': 4.6.0
+      '@coinmasters/api': 3.6.1
+      '@coinmasters/helpers': 10.0.1(@coinmasters/tokens@3.6.1)(@coinmasters/types@4.6.1)
+      '@coinmasters/tokens': 3.6.1
+      '@coinmasters/toolbox-cosmos': 10.0.1(@coinmasters/helpers@10.0.1)
+      '@coinmasters/toolbox-evm': 10.0.1(@coinmasters/helpers@10.0.1)
+      '@coinmasters/toolbox-utxo': 10.0.1(@coinmasters/helpers@10.0.1)
+      '@coinmasters/types': 4.6.1
       '@pioneer-platform/loggerdog': 8.3.1(@types/node@18.15.13)
-      '@pioneer-platform/pioneer-caip': 9.2.25
+      '@pioneer-platform/pioneer-caip': 9.2.26
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
       - '@types/node'
     dev: false
 
-  /@coinmasters/helpers@10.0.0(@coinmasters/tokens@3.6.0)(@coinmasters/types@4.6.0):
-    resolution: {integrity: sha512-ZJhTL/e/SnL5QsQ0CKEuEW68svV87g0PPxJ94cFIAm0bIe8QMHXs7D9v8SMkGnEt3nJ96qj1Kf0g1tatIrj1gA==}
+  /@coinmasters/helpers@10.0.1(@coinmasters/tokens@3.6.1)(@coinmasters/types@4.6.1):
+    resolution: {integrity: sha512-bT/rlasTgurQfGWgyDCNenXANhDRKjxfqPxT4SRAg48Io17XVwfYm57xLjshEL1aVNzgsldGQ0x+6CO0BIto3g==}
     peerDependencies:
-      '@coinmasters/tokens': 3.6.0
-      '@coinmasters/types': 4.6.0
+      '@coinmasters/tokens': 3.6.1
+      '@coinmasters/types': 4.6.1
     dependencies:
-      '@coinmasters/tokens': 3.6.0
-      '@coinmasters/types': 4.6.0
+      '@coinmasters/tokens': 3.6.1
+      '@coinmasters/types': 4.6.1
       ky: 1.1.3
     dev: false
 
-  /@coinmasters/pioneer-lib@0.0.25(@babel/core@7.24.3)(@chakra-ui/system@2.6.2)(@types/node@20.11.30)(@types/react@18.2.73):
-    resolution: {integrity: sha512-KQ7Jocnah/L7nfpvSa16kUnoGu4UrVygnsMT/uO7fGhldx+MrIbbkhiXWNqhLbKZu3byylX9GCZy/SwhqSYDYg==}
+  /@coinmasters/pioneer-lib@0.0.27(@babel/core@7.24.3)(@chakra-ui/system@2.6.2)(@types/node@20.11.30)(@types/react@18.2.73):
+    resolution: {integrity: sha512-PRcOkNqG/BPKKXhiML9gm+f4KGMKveVKrFzHV4z0M3fTVOfGp0f6DOEEJwW9b9YZl8fs6jMXxq+76jdgP2mm/Q==}
     dependencies:
       '@chakra-ui/icons': 2.1.1(@chakra-ui/system@2.6.2)(react@18.2.0)
       '@chakra-ui/next-js': 2.2.0(@chakra-ui/react@2.8.2)(@emotion/react@11.11.4)(next@14.1.0)(react@18.2.0)
-      '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.73)(framer-motion@11.0.24)(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.73)(framer-motion@11.0.25)(react-dom@18.2.0)(react@18.2.0)
       '@emotion/react': 11.11.4(@types/react@18.2.73)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.73)(react@18.2.0)
       '@fontsource/roboto': 5.0.12
-      '@pioneer-platform/pioneer-caip': 9.2.25
-      '@pioneer-platform/pioneer-coins': 9.2.15(@types/node@20.11.30)
+      '@pioneer-platform/pioneer-caip': 9.2.26
+      '@pioneer-platform/pioneer-coins': 9.2.16(@types/node@20.11.30)
       axios: 1.6.8
       chart.js: 4.4.2
-      framer-motion: 11.0.24(react-dom@18.2.0)(react@18.2.0)
+      framer-motion: 11.0.25(react-dom@18.2.0)(react@18.2.0)
       next: 14.1.0(@babel/core@7.24.3)(react-dom@18.2.0)(react@18.2.0)
       qrcode.react: 3.1.0(react@18.2.0)
       react: 18.2.0
@@ -1494,12 +1487,12 @@ packages:
       - sass
     dev: false
 
-  /@coinmasters/pioneer-react@0.5.6:
-    resolution: {integrity: sha512-5v7qLzyv9tKsd3+/qnx2r1RpjlZUf0KOL1NIQ9yfGhpp9N2Vzz5r1fRx+wPURTOId14+v7XGNRBIPsNpAxuFbA==}
+  /@coinmasters/pioneer-react@0.6.1:
+    resolution: {integrity: sha512-2Jrh35YGjYOtkYZH13OJtL78USu1ceaW7YNEcNiw5pg+Z/rL9HY5bU5OS83IaKu6S3g/P5MDl4e+9gQBKFPatw==}
     dependencies:
-      '@coinmasters/pioneer-sdk': 4.6.0(@types/node@18.15.13)
-      '@coinmasters/types': 4.6.0
-      '@pioneer-platform/pioneer-coins': 9.2.15(@types/node@18.15.13)
+      '@coinmasters/pioneer-sdk': 4.6.1(@types/node@18.15.13)
+      '@coinmasters/types': 4.6.1
+      '@pioneer-platform/pioneer-coins': 9.2.16(@types/node@18.15.13)
       '@types/node': 18.15.13
       '@vitest/coverage-istanbul': 0.34.6(vitest@0.34.6)
       ethers: 6.11.1
@@ -1532,23 +1525,23 @@ packages:
       - webdriverio
     dev: false
 
-  /@coinmasters/pioneer-sdk@4.6.0(@types/node@18.15.13):
-    resolution: {integrity: sha512-BiMFaxIia+FlrPdurEck42k4OXXF3YYerwNkaKDSz7B8S7C3DYGLmpUUFKdkeLuLbeFNI0jhXGFI4/9tNaRYSw==}
+  /@coinmasters/pioneer-sdk@4.6.1(@types/node@18.15.13):
+    resolution: {integrity: sha512-HQZldcIZuyZppS5ifAEczYrmbvPpVTmH2HzIPEdek/F2YpFzqujZTStxJdPWx3SNgPP3tbFc6ZB6Ahv8pqUSBg==}
     dependencies:
-      '@coinmasters/api': 3.6.0
-      '@coinmasters/core': 10.0.0(@coinmasters/api@3.6.0)(@coinmasters/tokens@3.6.0)(@coinmasters/toolbox-cosmos@10.0.0)(@coinmasters/toolbox-evm@10.0.0)(@coinmasters/toolbox-utxo@10.0.0)(@types/node@18.15.13)
-      '@coinmasters/helpers': 10.0.0(@coinmasters/tokens@3.6.0)(@coinmasters/types@4.6.0)
-      '@coinmasters/tokens': 3.6.0
-      '@coinmasters/toolbox-cosmos': 10.0.0(@coinmasters/helpers@10.0.0)
-      '@coinmasters/toolbox-evm': 10.0.0(@coinmasters/helpers@10.0.0)
-      '@coinmasters/toolbox-ripple': 10.0.0(@coinmasters/helpers@10.0.0)
-      '@coinmasters/toolbox-utxo': 10.0.0(@coinmasters/helpers@10.0.0)
-      '@coinmasters/types': 4.6.0
+      '@coinmasters/api': 3.6.1
+      '@coinmasters/core': 10.0.1(@coinmasters/api@3.6.1)(@coinmasters/tokens@3.6.1)(@coinmasters/toolbox-cosmos@10.0.1)(@coinmasters/toolbox-evm@10.0.1)(@coinmasters/toolbox-utxo@10.0.1)(@types/node@18.15.13)
+      '@coinmasters/helpers': 10.0.1(@coinmasters/tokens@3.6.1)(@coinmasters/types@4.6.1)
+      '@coinmasters/tokens': 3.6.1
+      '@coinmasters/toolbox-cosmos': 10.0.1(@coinmasters/helpers@10.0.1)
+      '@coinmasters/toolbox-evm': 10.0.1(@coinmasters/helpers@10.0.1)
+      '@coinmasters/toolbox-ripple': 10.0.1(@coinmasters/helpers@10.0.1)
+      '@coinmasters/toolbox-utxo': 10.0.1(@coinmasters/helpers@10.0.1)
+      '@coinmasters/types': 4.6.1
       '@pioneer-platform/loggerdog': 8.3.1(@types/node@18.15.13)
-      '@pioneer-platform/pioneer-caip': 9.2.25
+      '@pioneer-platform/pioneer-caip': 9.2.26
       '@pioneer-platform/pioneer-client': 9.2.4
-      '@pioneer-platform/pioneer-coins': 9.2.15(@types/node@18.15.13)
-      '@pioneer-platform/pioneer-discovery': 0.0.5
+      '@pioneer-platform/pioneer-coins': 9.2.16(@types/node@18.15.13)
+      '@pioneer-platform/pioneer-discovery': 0.0.6
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -1558,22 +1551,18 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@coinmasters/tokens@3.5.9:
-    resolution: {integrity: sha512-mI7T3gwPohyRT8vZrbZpKUwAlIJ/NTYvOQ797ls8Z0WvXJyl4PRkmg84vlgyV7THASb0Rge1GxjwOaIaLEddpw==}
+  /@coinmasters/tokens@3.6.1:
+    resolution: {integrity: sha512-nrL9LV9L3kH1p9ZaFQQJks1G1uRArZ/LZZ6DIzw9zS2mzegBOVuhPhzuNAS+YLf8bk4qQElSXmKUfEIrAJVJCA==}
     dev: false
 
-  /@coinmasters/tokens@3.6.0:
-    resolution: {integrity: sha512-j49JQE8huKjWBJOr3dhRKYEGUNUBgOgBLyUjiAAgfSdMS2PtYO97jx3oeWXTjRTMTkJBhYHF6nvDimK675bjXA==}
-    dev: false
-
-  /@coinmasters/toolbox-cosmos@10.0.0(@coinmasters/helpers@10.0.0):
-    resolution: {integrity: sha512-ALhTRzamC8TKjBmQwfKGshd5zG0l+rTFvFkPaWiINU6/AGEBuExaiFD2/DVVP5cKUgSCCEv1fWPk/vawomICOQ==}
+  /@coinmasters/toolbox-cosmos@10.0.1(@coinmasters/helpers@10.0.1):
+    resolution: {integrity: sha512-iJDrlqVuZYM8MFZEsbDBdXKxz1xAHYbO9UJRi2TPyJhTxedWA/qI+/rUWxJpx1f0KOs6YqSeVDNuhCXvMAJzxA==}
     peerDependencies:
-      '@coinmasters/helpers': 10.0.0
+      '@coinmasters/helpers': 10.0.1
     dependencies:
-      '@coinmasters/api': 3.6.0
-      '@coinmasters/helpers': 10.0.0(@coinmasters/tokens@3.6.0)(@coinmasters/types@4.6.0)
-      '@coinmasters/types': 4.6.0
+      '@coinmasters/api': 3.6.1
+      '@coinmasters/helpers': 10.0.1(@coinmasters/tokens@3.6.1)(@coinmasters/types@4.6.1)
+      '@coinmasters/types': 4.6.1
       '@cosmjs/amino': 0.32.0
       '@cosmjs/crypto': 0.32.0
       '@cosmjs/encoding': 0.32.0
@@ -1595,69 +1584,27 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@coinmasters/toolbox-cosmos@9.0.9(@coinmasters/helpers@10.0.0):
-    resolution: {integrity: sha512-JbGk5T+uCfQpCKEGi31fNgD/L5E/trL+Ck9dYpCsuwCYvuDzON6alPneloF+86LD4n60hbpJMDVVAn/RfB2TFA==}
+  /@coinmasters/toolbox-evm@10.0.1(@coinmasters/helpers@10.0.1):
+    resolution: {integrity: sha512-X1p6deDfZCRnDjRjCVQ4OZh2J6xwmRPVnAEoitMW+DKmW/kUq6PRDkYTR/Wm5BZPTNxbFl7fIHrK/gKI4Ar79w==}
     peerDependencies:
-      '@coinmasters/helpers': 9.0.9
+      '@coinmasters/helpers': 10.0.1
     dependencies:
-      '@coinmasters/api': 3.5.0
-      '@coinmasters/helpers': 10.0.0(@coinmasters/tokens@3.6.0)(@coinmasters/types@4.6.0)
-      '@coinmasters/types': 4.5.0
-      '@cosmjs/amino': 0.32.0
-      '@cosmjs/crypto': 0.32.0
-      '@cosmjs/encoding': 0.32.0
-      '@cosmjs/math': 0.32.0
-      '@cosmjs/proto-signing': 0.32.0
-      '@cosmjs/stargate': 0.32.0
-      '@scure/base': 1.1.3
-      '@scure/bip32': 1.3.2
-      bn.js: 5.2.1
-      cosmjs-types: 0.9.0
-      crypto-js: 4.2.0
-      elliptic: 6.5.4
-      protobufjs: 7.2.5
-      protocol-buffers-encodings: 1.2.0
-      tiny-secp256k1: 1.1.6
-    transitivePeerDependencies:
-      - bufferutil
-      - debug
-      - utf-8-validate
-    dev: false
-
-  /@coinmasters/toolbox-evm@10.0.0(@coinmasters/helpers@10.0.0):
-    resolution: {integrity: sha512-16GoG7F/FXadJvOF3ql8dH5yhOafAtwS7h0chKDD5y99H6kc+RQoytfKMFlNuMsgSilmBGmymfV2a2ulSraaKA==}
-    peerDependencies:
-      '@coinmasters/helpers': 10.0.0
-    dependencies:
-      '@coinmasters/helpers': 10.0.0(@coinmasters/tokens@3.6.0)(@coinmasters/types@4.6.0)
-      '@coinmasters/types': 4.6.0
+      '@coinmasters/helpers': 10.0.1(@coinmasters/tokens@3.6.1)(@coinmasters/types@4.6.1)
+      '@coinmasters/types': 4.6.1
       ethers: 6.9.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
     dev: false
 
-  /@coinmasters/toolbox-evm@9.0.9(@coinmasters/helpers@10.0.0):
-    resolution: {integrity: sha512-BxG6JFyNkrZPpjQqJRD7Q7Hu46OeFKV/gvJdA98tTGSC2+wdj3JSLXoF3ujwAQAAOwuSMpBrwKsdwaxtG++HqQ==}
+  /@coinmasters/toolbox-ripple@10.0.1(@coinmasters/helpers@10.0.1):
+    resolution: {integrity: sha512-vUzTK7gWRSf4GeuwNFW3id6Yo9x8jET9NMgrWNxExIQ8rlFM+ttJXa59rIk5CCe/mYJkNlW/986bTZJieZaN+g==}
     peerDependencies:
-      '@coinmasters/helpers': 9.0.9
+      '@coinmasters/helpers': 10.0.1
     dependencies:
-      '@coinmasters/helpers': 10.0.0(@coinmasters/tokens@3.6.0)(@coinmasters/types@4.6.0)
-      '@coinmasters/types': 4.5.0
-      ethers: 6.9.0
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
-    dev: false
-
-  /@coinmasters/toolbox-ripple@10.0.0(@coinmasters/helpers@10.0.0):
-    resolution: {integrity: sha512-6Z3iN2ewC5Gg5hwRaeBWEP3e5QAiIP7x0MTeQ6Sz0HoVP0uZXaeVLWTzJoU0bw+RKpP+mD4Z2i0aP1hRfGDIbg==}
-    peerDependencies:
-      '@coinmasters/helpers': 10.0.0
-    dependencies:
-      '@coinmasters/api': 3.6.0
-      '@coinmasters/helpers': 10.0.0(@coinmasters/tokens@3.6.0)(@coinmasters/types@4.6.0)
-      '@coinmasters/types': 4.6.0
+      '@coinmasters/api': 3.6.1
+      '@coinmasters/helpers': 10.0.1(@coinmasters/tokens@3.6.1)(@coinmasters/types@4.6.1)
+      '@coinmasters/types': 4.6.1
       '@cosmjs/amino': 0.31.1
       '@cosmjs/crypto': 0.31.1
       '@cosmjs/encoding': 0.31.1
@@ -1679,42 +1626,13 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@coinmasters/toolbox-ripple@9.0.9(@coinmasters/helpers@10.0.0):
-    resolution: {integrity: sha512-Qu1BJCo0peFMByYTlBL2fIWdE7BYBBKPZnP4EBt23m7fvzyzgcRlQYNENQyBBRMbgDJOUN53Zy+RD4j/OL4DSA==}
+  /@coinmasters/toolbox-utxo@10.0.1(@coinmasters/helpers@10.0.1):
+    resolution: {integrity: sha512-KBgGgDES4WLcBhRVKp/k1yoZB2ay77NkD++hyQ3mfKwTc5GHzW75HlQ+kPAZEIp1qy9LKp28+grKH+lzxzTDAQ==}
     peerDependencies:
-      '@coinmasters/helpers': 9.0.9
+      '@coinmasters/helpers': 10.0.1
     dependencies:
-      '@coinmasters/api': 3.5.0
-      '@coinmasters/helpers': 10.0.0(@coinmasters/tokens@3.6.0)(@coinmasters/types@4.6.0)
-      '@coinmasters/types': 4.5.0
-      '@cosmjs/amino': 0.31.1
-      '@cosmjs/crypto': 0.31.1
-      '@cosmjs/encoding': 0.31.1
-      '@cosmjs/math': 0.31.1
-      '@cosmjs/proto-signing': 0.31.1
-      '@cosmjs/stargate': 0.31.1
-      '@scure/base': 1.1.3
-      '@scure/bip32': 1.3.2
-      bn.js: 5.2.1
-      cosmjs-types: 0.8.0
-      crypto-js: 4.1.1
-      elliptic: 6.5.4
-      protobufjs: 7.2.5
-      protocol-buffers-encodings: 1.2.0
-      tiny-secp256k1: 1.1.6
-    transitivePeerDependencies:
-      - bufferutil
-      - debug
-      - utf-8-validate
-    dev: false
-
-  /@coinmasters/toolbox-utxo@10.0.0(@coinmasters/helpers@10.0.0):
-    resolution: {integrity: sha512-cm/eXnMqNXWL/EcVqruadApTrsXS75AOyvbGZWhyQ1YteRxbCIx01YF+I7smYwRT7w9+Z6Px4ZfrS4oMOjxU+w==}
-    peerDependencies:
-      '@coinmasters/helpers': 10.0.0
-    dependencies:
-      '@coinmasters/helpers': 10.0.0(@coinmasters/tokens@3.6.0)(@coinmasters/types@4.6.0)
-      '@coinmasters/types': 4.6.0
+      '@coinmasters/helpers': 10.0.1(@coinmasters/tokens@3.6.1)(@coinmasters/types@4.6.1)
+      '@coinmasters/types': 4.6.1
       '@psf/bitcoincashjs-lib': 4.0.3
       '@scure/bip32': 1.3.2
       '@scure/bip39': 1.2.1
@@ -1726,59 +1644,31 @@ packages:
       tiny-secp256k1: 1.1.6
     dev: false
 
-  /@coinmasters/toolbox-utxo@9.0.9(@coinmasters/helpers@10.0.0)(@types/node@20.11.30):
-    resolution: {integrity: sha512-DlnJNvTnkndd44/OOYSFSfxnjzshjFXAqsOx8ALyy7a0vi/HYXhHgq/ZJQbkLRyU9FdffUZBOkqz4fMHzM0/ag==}
+  /@coinmasters/types@4.6.1:
+    resolution: {integrity: sha512-xV8BpqS3cQ0T+iAV31AHD5Iql1Cz/cZlYA0GdeX3B+A6HyDxfre33u69WVkzXMOvy2YoQhT1+U5bkLc0FzAmRQ==}
+    dev: false
+
+  /@coinmasters/wallet-keepkey@12.0.1(@coinmasters/toolbox-cosmos@10.0.1)(@coinmasters/toolbox-evm@10.0.1)(@coinmasters/toolbox-ripple@10.0.1)(@coinmasters/toolbox-utxo@10.0.1)(@keepkey/keepkey-sdk@0.2.57)(@types/node@20.11.30)(bitcoinjs-lib@5.2.0):
+    resolution: {integrity: sha512-fb0EGeehqeKisxvI7doV7K079XtO4oOKBDp6s5313sF4d+Z/n3Dtg7xINl/ZnhNSw26nsauhKSoTuVJauWBP7A==}
     peerDependencies:
-      '@coinmasters/helpers': 9.0.9
-    dependencies:
-      '@coinmasters/helpers': 10.0.0(@coinmasters/tokens@3.6.0)(@coinmasters/types@4.6.0)
-      '@coinmasters/types': 4.5.0
-      '@pioneer-platform/pioneer-coins': 9.2.15(@types/node@20.11.30)
-      '@psf/bitcoincashjs-lib': 4.0.3
-      '@scure/bip32': 1.3.2
-      '@scure/bip39': 1.2.1
-      bchaddrjs: 0.5.2
-      bitcoinjs-lib: 6.1.5
-      coininfo: 5.2.1
-      coinselect: 3.1.13
-      ecpair: 2.0.1
-      tiny-secp256k1: 1.1.6
-    transitivePeerDependencies:
-      - '@swc/core'
-      - '@swc/wasm'
-      - '@types/node'
-    dev: false
-
-  /@coinmasters/types@4.5.0:
-    resolution: {integrity: sha512-21LdITtoQv+iCFKJ8Ij5Cj9uMwvaKewIn6cA/k917dW9XjZS0/4YLDhgKcRc1ksFx7S7r9luJlIV+DHapdMNOQ==}
-    dev: false
-
-  /@coinmasters/types@4.6.0:
-    resolution: {integrity: sha512-scIs9d2D/Xx7maQT4aEESiDq8HNxfvO/0ELJd6Eke6E8yYd6KU4qYpwCyyhGOCzN5N6/xBnrzHMWDJvmsStnuw==}
-    dev: false
-
-  /@coinmasters/wallet-keepkey@11.0.9(@coinmasters/toolbox-cosmos@9.0.9)(@coinmasters/toolbox-evm@9.0.9)(@coinmasters/toolbox-ripple@9.0.9)(@coinmasters/toolbox-utxo@9.0.9)(@keepkey/keepkey-sdk@0.2.57)(@types/node@20.11.30)(bitcoinjs-lib@5.2.0):
-    resolution: {integrity: sha512-5ZWyQhRwsfwQ/MEQFcaqjaD+aITCNkRfJxSkE//sS2sZAa6/vUpjA47vUCmYBgeiI/R6iOWaeMcENeuEOtesfQ==}
-    peerDependencies:
-      '@coinmasters/toolbox-cosmos': 9.0.9
-      '@coinmasters/toolbox-evm': 9.0.9
-      '@coinmasters/toolbox-ripple': 9.0.9
-      '@coinmasters/toolbox-utxo': 9.0.9
+      '@coinmasters/toolbox-cosmos': 10.0.1
+      '@coinmasters/toolbox-evm': 10.0.1
+      '@coinmasters/toolbox-ripple': 10.0.1
+      '@coinmasters/toolbox-utxo': 10.0.1
       '@keepkey/keepkey-sdk': ^0.2.57
       bitcoinjs-lib: 5.2.0
     dependencies:
-      '@coinmasters/tokens': 3.5.9
-      '@coinmasters/toolbox-cosmos': 9.0.9(@coinmasters/helpers@10.0.0)
-      '@coinmasters/toolbox-evm': 9.0.9(@coinmasters/helpers@10.0.0)
-      '@coinmasters/toolbox-ripple': 9.0.9(@coinmasters/helpers@10.0.0)
-      '@coinmasters/toolbox-utxo': 9.0.9(@coinmasters/helpers@10.0.0)(@types/node@20.11.30)
-      '@coinmasters/types': 4.5.0
+      '@coinmasters/tokens': 3.6.1
+      '@coinmasters/toolbox-cosmos': 10.0.1(@coinmasters/helpers@10.0.1)
+      '@coinmasters/toolbox-evm': 10.0.1(@coinmasters/helpers@10.0.1)
+      '@coinmasters/toolbox-ripple': 10.0.1(@coinmasters/helpers@10.0.1)
+      '@coinmasters/toolbox-utxo': 10.0.1(@coinmasters/helpers@10.0.1)
+      '@coinmasters/types': 4.6.1
       '@cosmjs/math': 0.32.3
       '@cosmjs/stargate': 0.31.1
       '@keepkey/keepkey-sdk': 0.2.57
       '@pioneer-platform/loggerdog': 8.3.1(@types/node@20.11.30)
-      '@pioneer-platform/pioneer-caip': 9.2.25
-      '@pioneer-platform/pioneer-coins': 9.2.15(@types/node@20.11.30)
+      '@pioneer-platform/pioneer-coins': 9.2.16(@types/node@20.11.30)
       '@types/bchaddrjs': 0.4.0
       bchaddrjs: 0.5.2
       bitcoinjs-lib: 5.2.0
@@ -2789,42 +2679,44 @@ packages:
       - '@types/node'
     dev: false
 
-  /@pioneer-platform/pioneer-caip@9.2.25:
-    resolution: {integrity: sha512-4JJvZ4rNjjpG3ZEXOKPow2IBu2lR1mdV+YDszAhEnizx7VoVxkmXvLLuAxVZf1Hv8Mf55epZSd/exTdUEQ0Bgw==}
+  /@pioneer-platform/pioneer-caip@9.2.26:
+    resolution: {integrity: sha512-CtJDwZXWYVogrbRZV6e5Bkrp/54xpoNufkAsvTQ83vPuJ0oz434NWaxFgfXAUy+ipdfhRwp/dF1JyjLm/zP+2g==}
     dev: false
 
   /@pioneer-platform/pioneer-client@9.2.4:
     resolution: {integrity: sha512-LIZ7ZRnZJWusq7wIoT42qiOMuPboLvCxJCZzbXfvzlUMjBBc0duuBuRt4GDuNJuct1ola4au+2A/0BfLZDtbHw==}
     dependencies:
-      swagger-client: 3.26.4
+      swagger-client: 3.26.6
     transitivePeerDependencies:
       - debug
     dev: false
 
-  /@pioneer-platform/pioneer-coins@9.2.15(@types/node@18.15.13):
-    resolution: {integrity: sha512-2uxZJ2H1vLNPsgXSklwjuNgnUzzZfbkM/HHz1XG51ZwceVwrrDTBetoBeH4gihLK0OKIFO7flVo7PRA9+s2u4Q==}
+  /@pioneer-platform/pioneer-coins@9.2.16(@types/node@18.15.13):
+    resolution: {integrity: sha512-9VgXFgZFW89vyfVCsEnVgiEqh7p7jH8iGUS+awcrjbHHqnMi5RCElN5rIG/6kyknA1vx62LHdvVM2KsH+ARZYA==}
     dependencies:
       '@pioneer-platform/loggerdog': 8.3.1(@types/node@18.15.13)
       bignumber.js: 9.1.2
+      bs58check: 3.0.1
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
       - '@types/node'
     dev: false
 
-  /@pioneer-platform/pioneer-coins@9.2.15(@types/node@20.11.30):
-    resolution: {integrity: sha512-2uxZJ2H1vLNPsgXSklwjuNgnUzzZfbkM/HHz1XG51ZwceVwrrDTBetoBeH4gihLK0OKIFO7flVo7PRA9+s2u4Q==}
+  /@pioneer-platform/pioneer-coins@9.2.16(@types/node@20.11.30):
+    resolution: {integrity: sha512-9VgXFgZFW89vyfVCsEnVgiEqh7p7jH8iGUS+awcrjbHHqnMi5RCElN5rIG/6kyknA1vx62LHdvVM2KsH+ARZYA==}
     dependencies:
       '@pioneer-platform/loggerdog': 8.3.1(@types/node@20.11.30)
       bignumber.js: 9.1.2
+      bs58check: 3.0.1
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
       - '@types/node'
     dev: false
 
-  /@pioneer-platform/pioneer-discovery@0.0.5:
-    resolution: {integrity: sha512-b5U4Ed+4/zL24KfUYGlgfEms3xTTsCdewV8VTUGplD643eX9suBnLS1z59vY/xr+i+zdPTDS2Kgplo9NCa5S2w==}
+  /@pioneer-platform/pioneer-discovery@0.0.6:
+    resolution: {integrity: sha512-0yzWvrPZS5h3yjsjfX/YKkkBx0CaXwRAXkQkT9TyNo8zPyUlHPrPkUJ9pzIrquBRHZRUxmuCnHah65LGGVtM4Q==}
     dev: false
 
   /@pkgjs/parseargs@0.11.0:
@@ -2943,24 +2835,24 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: false
 
-  /@swagger-api/apidom-ast@0.98.0:
-    resolution: {integrity: sha512-0PThtNVpLWWwWEt0AEFAiMAyXUDUkIQ5aspHBPQVyh2bKUg71H33/xOLAk0kgRSTLGlsWPrZtirgzAEz7AUWSw==}
+  /@swagger-api/apidom-ast@0.99.1:
+    resolution: {integrity: sha512-evkKm2JaqNfg3dB2Yk3FWL/Qy2r4csZLMZ9bHMG+xNpti8ulENHMjuCh3Ry4koV1gD7IA54CU2ZjcaTvqJa22Q==}
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-error': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-error': 0.99.0
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
       unraw: 3.0.0
     dev: false
 
-  /@swagger-api/apidom-core@0.98.0:
-    resolution: {integrity: sha512-WKyOmuloUC2jJ7qtSEiigx6RhCMwBTOnW/1qQlhttRy2HlrzziNPIpq2vfZUtSU6FG8InlWSrf939KLfrQG1Fw==}
+  /@swagger-api/apidom-core@0.99.1:
+    resolution: {integrity: sha512-oWU9Re2B7hPFAnm4ymN2HNOqevMqZsvL4Fjud2qN+KFWNvZ1/r8kwQaj0Pba5Kwka2bcWo0aEfWNayP4axTB+Q==}
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-ast': 0.98.0
-      '@swagger-api/apidom-error': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-ast': 0.99.1
+      '@swagger-api/apidom-error': 0.99.0
+      '@types/ramda': 0.29.12
       minim: 0.23.8
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
@@ -2968,214 +2860,214 @@ packages:
       stampit: 4.3.2
     dev: false
 
-  /@swagger-api/apidom-error@0.98.0:
-    resolution: {integrity: sha512-c6Brf8Njg0zv0U6VZax6J0v/TkllP2+6//NCKKMvdecYknoJl9yfsG6dPP5DustbSNrsi2IGI9j0uyJ+osVh6Q==}
+  /@swagger-api/apidom-error@0.99.0:
+    resolution: {integrity: sha512-ZdFdn+GeIo23X2GKFrfH4Y5KY8yTzVF1l/Mqjs8+nD30LTbYg6f3ITHn429dk8fDT3NT69fG+gGm60FAFaKkeQ==}
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
+      '@babel/runtime-corejs3': 7.24.4
     dev: false
 
-  /@swagger-api/apidom-json-pointer@0.98.0:
-    resolution: {integrity: sha512-CjQBBvvG26isK2YUx3+/cHWBLO/q0C7Lv42v6Ux5NVRbOtpqO7WQCX0gGiDg4MBDcPcuw0dgNilu9QoErRq2wg==}
+  /@swagger-api/apidom-json-pointer@0.99.1:
+    resolution: {integrity: sha512-4fOOKTLoBWpfX2eGNx93sqBsS1KRCtBFOq75n1jMcRbs1rrj+JxcaiTFUE+6BZqIqBsCqTmRMYE/HsgwBS3vhQ==}
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-error': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-error': 0.99.0
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
 
-  /@swagger-api/apidom-ns-api-design-systems@0.98.0:
-    resolution: {integrity: sha512-zs+BMXtffopb8h/gOgANVeF4xyt+MGo2EXRSiiqqKZObZ99vxvmZ3B/BvcKi41PIA14YLZAaXG8zDEpIgSTaRQ==}
+  /@swagger-api/apidom-ns-api-design-systems@0.99.1:
+    resolution: {integrity: sha512-LID3n+Y2eKBzaR7oYShto48+EFPBLZLuKIJdEZ53is6SqD5jHS0Ev6xLj2QfqSIQR3OoVN3PUOrz724Jkpiv/A==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-error': 0.98.0
-      '@swagger-api/apidom-ns-openapi-3-1': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-error': 0.99.0
+      '@swagger-api/apidom-ns-openapi-3-1': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
       ts-mixer: 6.0.4
     dev: false
     optional: true
 
-  /@swagger-api/apidom-ns-asyncapi-2@0.98.0:
-    resolution: {integrity: sha512-3oXGYjNL60S+wKIOM7NGxoWpISAs9/mpXTOEtEBGwPy2LZ4HQ/DpAmkQJq5FUH3ChJDDkiWPR24jfBQDSIsLqw==}
+  /@swagger-api/apidom-ns-asyncapi-2@0.99.1:
+    resolution: {integrity: sha512-fAUsKbg0MuvEPjE2UWQu+62K0eh/3yTE2M5u/QCqpj48IpByMNYLKU9ICfMMAzBjXNQAVuEr07/UgY9CRHUVhA==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-json-schema-draft-7': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-json-schema-draft-7': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
       ts-mixer: 6.0.4
     dev: false
     optional: true
 
-  /@swagger-api/apidom-ns-json-schema-draft-4@0.98.0:
-    resolution: {integrity: sha512-NgHyZ8a/Voeg4YzlWCX1zIidqFFA5236bjSs0g/DJAFDxi28jSs35OJKOXZz65T2LXIzdYytes9O/VyyxvHH5Q==}
+  /@swagger-api/apidom-ns-json-schema-draft-4@0.99.1:
+    resolution: {integrity: sha512-HdxD4WXnaMJsdodrWoynzgteg9UDaZsVkX04oObQPR3C1ZWW9KahEGBSbtr/oBhnE/QgiPfNHUDWrQvk3oC6lg==}
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-ast': 0.98.0
-      '@swagger-api/apidom-core': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-ast': 0.99.1
+      '@swagger-api/apidom-core': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
       stampit: 4.3.2
     dev: false
 
-  /@swagger-api/apidom-ns-json-schema-draft-6@0.98.0:
-    resolution: {integrity: sha512-NOPB4byXEuZNl4Fh83GwUu3Vd7LgXNYjb3+4Zh6hC9JhMyTeN8yysbN+Llfh8Qq2KW4h7E+x9pZv7cIKrPAEMg==}
+  /@swagger-api/apidom-ns-json-schema-draft-6@0.99.1:
+    resolution: {integrity: sha512-O6A25j9y+Hjvwwq8x+uTaIhK4tp0CqO6YrFRXmfmOnkBtJ6Q66jqbvRzIN9XQfW8VaIipqAlOin++ufsfuDd1g==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-error': 0.98.0
-      '@swagger-api/apidom-ns-json-schema-draft-4': 0.98.0
-      '@types/ramda': 0.29.11
-      ramda: 0.29.1
-      ramda-adjunct: 4.1.1(ramda@0.29.1)
-      stampit: 4.3.2
-    dev: false
-    optional: true
-
-  /@swagger-api/apidom-ns-json-schema-draft-7@0.98.0:
-    resolution: {integrity: sha512-mHc3J34iA1OZk1uOO0KfAVfH+Z7qjKpyXBEKkXuaf7ICCFC5vbPWGj10Ufjb8yx93TZ7akLXHLh8DhDqvH6beA==}
-    requiresBuild: true
-    dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-error': 0.98.0
-      '@swagger-api/apidom-ns-json-schema-draft-6': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-error': 0.99.0
+      '@swagger-api/apidom-ns-json-schema-draft-4': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
       stampit: 4.3.2
     dev: false
     optional: true
 
-  /@swagger-api/apidom-ns-openapi-2@0.98.0:
-    resolution: {integrity: sha512-AOZIUfRFwUN4ujb6BiFH16h8QEb93/ZDh7R5ly6lnKBsXhD/l8KgQFwZAB4PsGDJ1no6KlTWL1F0O3ucSv2cmQ==}
+  /@swagger-api/apidom-ns-json-schema-draft-7@0.99.1:
+    resolution: {integrity: sha512-I4IpTkAlParfUWOi5kJU7jQqeMKy39JOWiRz8jTyPoZ8vvixVgyIlOS7/bj5uLxbBw3QxOFXPuIqUvK1uFElAg==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-error': 0.98.0
-      '@swagger-api/apidom-ns-json-schema-draft-4': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-error': 0.99.0
+      '@swagger-api/apidom-ns-json-schema-draft-6': 0.99.1
+      '@types/ramda': 0.29.12
+      ramda: 0.29.1
+      ramda-adjunct: 4.1.1(ramda@0.29.1)
+      stampit: 4.3.2
+    dev: false
+    optional: true
+
+  /@swagger-api/apidom-ns-openapi-2@0.99.1:
+    resolution: {integrity: sha512-ChEd1RaJKrYskLTmlH8NL9tNpAgroSPklTwJCvHmZjzaWvW7N/B2diHBOaz+rnVLiW9Hb7QOlR/biEXJn7OUIg==}
+    requiresBuild: true
+    dependencies:
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-error': 0.99.0
+      '@swagger-api/apidom-ns-json-schema-draft-4': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
       ts-mixer: 6.0.4
     dev: false
     optional: true
 
-  /@swagger-api/apidom-ns-openapi-3-0@0.98.0:
-    resolution: {integrity: sha512-VHbdpH4y0zStSmKCaSUz+jalmj+sjbJfB7W8anKjqdiOMGywMHLjLYDkQWHg/z6fM+0OriWItHXe3sTtOBh7OQ==}
+  /@swagger-api/apidom-ns-openapi-3-0@0.99.1:
+    resolution: {integrity: sha512-9lfa2a+4rLp+1loEXrr+Dq3whdBwBWHukctsX/C/cGr4SG0NO8+tmS3FLsOD+ly6O/YPdszPDxVcIqqNV8J2uA==}
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-error': 0.98.0
-      '@swagger-api/apidom-ns-json-schema-draft-4': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-error': 0.99.0
+      '@swagger-api/apidom-ns-json-schema-draft-4': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
       ts-mixer: 6.0.4
     dev: false
 
-  /@swagger-api/apidom-ns-openapi-3-1@0.98.0:
-    resolution: {integrity: sha512-T+B0Fcreq1iEuvUJWnYujAjAdPltKPRmXZ6aI+iL1g0rT3kmEig4KSuiynhEyftU1wukRw8IbKj4KiOyuAwyLg==}
+  /@swagger-api/apidom-ns-openapi-3-1@0.99.1:
+    resolution: {integrity: sha512-XsRxM9WC+WywBo+rr/YUayQRsV2mN8AzBxVlKzJoZ+pBgmPYe24n3Ma/0FTr8zGwQyg4DtOBwydlYz8QFrLPFA==}
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-ast': 0.98.0
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-openapi-3-0': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-ast': 0.99.1
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-openapi-3-0': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
       ts-mixer: 6.0.4
     dev: false
 
-  /@swagger-api/apidom-ns-workflows-1@0.98.0:
-    resolution: {integrity: sha512-jaJYpBHKcX+Sz8f3QGFEM6jYzSKOJTKNrfqwNBLkOwa1AZrMwiofqGhjAiz5HHFNkfYJdR6LQmSU4sq24IamHw==}
+  /@swagger-api/apidom-ns-workflows-1@0.99.1:
+    resolution: {integrity: sha512-s6SmFzlBmKKRdlyLdZsjXHYJ+7+AuDyK3qrBAPHX7mDe/uN6D7QPGD05oCzHytPhbeZQPMf0wi9vPUrM1s1xvw==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-openapi-3-1': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-openapi-3-1': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
       ts-mixer: 6.0.4
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-api-design-systems-json@0.98.0:
-    resolution: {integrity: sha512-gfQmKNexWhDN3uOuc8NUt5wXGRFzwdNYeEYyEVPFO0+Nbs8qrdqmfgiuXgpvEDXkDJZiIug4zPMC2Q1XiB7zMA==}
+  /@swagger-api/apidom-parser-adapter-api-design-systems-json@0.99.1:
+    resolution: {integrity: sha512-ONeGsOZPZ16SvYbfHKiLjg8IeKGg+nJC+fOIqnelGdMCu/34ed0X7k6XQZGrwbDtmSd3SkXykL3F55H5BFiUPQ==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-api-design-systems': 0.98.0
-      '@swagger-api/apidom-parser-adapter-json': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-api-design-systems': 0.99.1
+      '@swagger-api/apidom-parser-adapter-json': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-api-design-systems-yaml@0.98.0:
-    resolution: {integrity: sha512-U8zhua172l2CKh200rVKPwounwGDr6DEzi0BaA31pTcel8e2jwmEkGTJ4PdO1aCHN1cDYVYXMGyEf67gOoo/kg==}
+  /@swagger-api/apidom-parser-adapter-api-design-systems-yaml@0.99.1:
+    resolution: {integrity: sha512-mVOHebofGhI3E8HW/7YsqGOpIWOBSMc5R5aQFMYMYpTxrpDHNhyEfFEWqZRAoC2Hin9NZ2BeI/hsrXGIw/LoeQ==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-api-design-systems': 0.98.0
-      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-api-design-systems': 0.99.1
+      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-asyncapi-json-2@0.98.0:
-    resolution: {integrity: sha512-4mV0Ja+r2s5WAqJyZJHtQsNhyR2x8J+fYhcmuBHcqZp3sokzTObAAImsIdZ1zYdFYrrZgymD4GMk4RoLbJM3FQ==}
+  /@swagger-api/apidom-parser-adapter-asyncapi-json-2@0.99.1:
+    resolution: {integrity: sha512-2kKVf5ecTuDirPpk8nDRyTrT0tkrWjdaUPwJ/+l2RdgWYObNVwdX2lAS9URC4zK/drdQOQxjetF+aDQBBhXmXA==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-asyncapi-2': 0.98.0
-      '@swagger-api/apidom-parser-adapter-json': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-asyncapi-2': 0.99.1
+      '@swagger-api/apidom-parser-adapter-json': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-asyncapi-yaml-2@0.98.0:
-    resolution: {integrity: sha512-FLb5IUVhOdhRSfi2OnpOWxiB7CVZXrqG1rSniOWQ4fjeQ7urB5NJv6p2nbC9waduHA0B0mItiO1ijvbOFf0Dcw==}
+  /@swagger-api/apidom-parser-adapter-asyncapi-yaml-2@0.99.1:
+    resolution: {integrity: sha512-UX+rLOUSQuWe5yNXS8eLFvDhCA1CP5r80jLtvT3n0FDnss4+9WkPlqgj4UPH4XoitXSvBVOZxbdjNwfKtJzsHA==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-asyncapi-2': 0.98.0
-      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-asyncapi-2': 0.99.1
+      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-json@0.98.0:
-    resolution: {integrity: sha512-tZkL4sZ5JsICnhYGTeCApHRbfyAkjydb5h+OOE+MAEajRxi/PWklFDGiU7viScPWWE9cPnzRqtp8M0RutmHJew==}
+  /@swagger-api/apidom-parser-adapter-json@0.99.1:
+    resolution: {integrity: sha512-qVeSdhaDIggIkFtMI4aqqv4MYuJlRQ6pniP+Li+DjcHeTKYHelX0OwoznaTlLlZ1tM9QFaMi8rw8xfGp6vMHgg==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-ast': 0.98.0
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-error': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-ast': 0.99.1
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-error': 0.99.0
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
       tree-sitter: 0.20.4
@@ -3184,127 +3076,127 @@ packages:
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-openapi-json-2@0.98.0:
-    resolution: {integrity: sha512-81M0Z0N0oWCiUy251IIewm9YwKDFyR84XccrHnIIf/aWuikU2IRr5fDonxweIPuDYybKdpia8lca0GG/iI6G3g==}
+  /@swagger-api/apidom-parser-adapter-openapi-json-2@0.99.1:
+    resolution: {integrity: sha512-aHzdast9HMeGTaTUWwVovMcspEVCAdvBJe47BzMZfzcVOnZlAVyTmLqxQ/3s9fjseRrPhFYqKtCOKROzbWeAhg==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-openapi-2': 0.98.0
-      '@swagger-api/apidom-parser-adapter-json': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-openapi-2': 0.99.1
+      '@swagger-api/apidom-parser-adapter-json': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-openapi-json-3-0@0.98.0:
-    resolution: {integrity: sha512-mfvj3f75CYAUtslv5ildHllGl8ZWpuge9alTcjxtwIGUu85oXdQ6yv7EExWHe2icZ3w+VY12VzwMbpEumx6k/Q==}
+  /@swagger-api/apidom-parser-adapter-openapi-json-3-0@0.99.1:
+    resolution: {integrity: sha512-l/nYccP87GL611W9OCiYWUOizhhoGenuKa7Ocmaf9Rg+xIDnPw29+9p/SuGEN2jjtql0iYuNI4+ZzwiC2+teSg==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-openapi-3-0': 0.98.0
-      '@swagger-api/apidom-parser-adapter-json': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-openapi-3-0': 0.99.1
+      '@swagger-api/apidom-parser-adapter-json': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-openapi-json-3-1@0.98.0:
-    resolution: {integrity: sha512-HzlF/G+tygojw8UswwdLptDUBGhp9d+nGzADG2j+M1onBrw35/jdRPtX4S2KQ8mmwyEEgHlRENhv7yndvCbvPg==}
+  /@swagger-api/apidom-parser-adapter-openapi-json-3-1@0.99.1:
+    resolution: {integrity: sha512-Eie4ztKR5hgrGESBDHB9xIODTB/gvjWBwPNveZ/iSlJ/yhZGyDMC8dgv0aQiyFP01mKaaBMhyZjWgsvts9l+cQ==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-openapi-3-1': 0.98.0
-      '@swagger-api/apidom-parser-adapter-json': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-openapi-3-1': 0.99.1
+      '@swagger-api/apidom-parser-adapter-json': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-openapi-yaml-2@0.98.0:
-    resolution: {integrity: sha512-FzQNMk6gDUSp2PLtMKhnDF6MFk0T7y6ewPrYk0ztcul+m6YQD4pdcUXhpXcwtfy9dspJQERF7UKuaK9dZsm8BQ==}
+  /@swagger-api/apidom-parser-adapter-openapi-yaml-2@0.99.1:
+    resolution: {integrity: sha512-MzjUyhGmJ+jQly90Nak7s01x2Jp1GvBe+Z8BXwkArNOFjLvzQIjdAx7F943/VlLaV9y71DNXVsqhgKdiqjnX3w==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-openapi-2': 0.98.0
-      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-openapi-2': 0.99.1
+      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-openapi-yaml-3-0@0.98.0:
-    resolution: {integrity: sha512-H1EYjBDeKx0WiPqsrUkb+Zlm59rqbtQb6w+SAdkw4PBHi0+yOgOlvUrIkTYEVy8BD6he01dbMocv+EDXpd9rww==}
+  /@swagger-api/apidom-parser-adapter-openapi-yaml-3-0@0.99.1:
+    resolution: {integrity: sha512-TF/yquy1Alce/olQzR5AnjnOx7o7q8MkXMi0JxrtqvMk9Ky//0qFxFGzFQEzA++NaSGt9StG0Pcgp4MGZAzJYg==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-openapi-3-0': 0.98.0
-      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-openapi-3-0': 0.99.1
+      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-openapi-yaml-3-1@0.98.0:
-    resolution: {integrity: sha512-sxnAJDg0TGK0T4HwtkE1mkfQWL564UGlgvU+gfrEmOLjsfqRDrlFfffYKguqtJdz17+HgUp78Sqj6Ey48J83Jw==}
+  /@swagger-api/apidom-parser-adapter-openapi-yaml-3-1@0.99.1:
+    resolution: {integrity: sha512-baXbKqjnbmgEmFgCVHlDEiFANHs5lHnnBM0X3k5kNtAVule6Lc5lAZVoySpTGyBJ+4nq4RHNJfbKW8RDHgVMoQ==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-openapi-3-1': 0.98.0
-      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-openapi-3-1': 0.99.1
+      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-workflows-json-1@0.98.0:
-    resolution: {integrity: sha512-XroOfEPbs6Ogl4pSZGQ4yctu4OsMQw5qvnVTFS3hCr+fHQXFIaD+remFRjHQRqhyVC0FDmw0mggWubcSosiyCg==}
+  /@swagger-api/apidom-parser-adapter-workflows-json-1@0.99.1:
+    resolution: {integrity: sha512-Uu8SaQfl2XiiXDQVRUvUCu3yk7jwHVmwKOoacbJGzPducrR/7/bOe8dNeN4CMRw7HKeRbh02UxXtR46mgBPnog==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-workflows-1': 0.98.0
-      '@swagger-api/apidom-parser-adapter-json': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-workflows-1': 0.99.1
+      '@swagger-api/apidom-parser-adapter-json': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-workflows-yaml-1@0.98.0:
-    resolution: {integrity: sha512-9SG9g+raKEU8cpEVT7eYlHGUEWAB7DYm/oNN5k3i4hLbJUIYKrL4KAK1sRrfxrGRiCIJG/O/jw4NLcSVgLcVJQ==}
+  /@swagger-api/apidom-parser-adapter-workflows-yaml-1@0.99.1:
+    resolution: {integrity: sha512-9DX9X9wxW6TJF5lG0k/w0GxeMPkHACwEQx/QFJqg1YRD3/UWSkBcm567KbfCh5BiDx5p5WAYhTGInQEAF3d0zQ==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-ns-workflows-1': 0.98.0
-      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-ns-workflows-1': 0.99.1
+      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.99.1
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
     dev: false
     optional: true
 
-  /@swagger-api/apidom-parser-adapter-yaml-1-2@0.98.0:
-    resolution: {integrity: sha512-pEIZblIK+/k9p6wge3z9uX1bVD7zzXhoxg3hgpClojZmmJV/jriDUmRzLO1MeqVbH+JFXE2FGFvE5D4CRFCEVw==}
+  /@swagger-api/apidom-parser-adapter-yaml-1-2@0.99.1:
+    resolution: {integrity: sha512-MmTDUkrvFIg2AwzaZmiqBifWpoECh7AKeJcAD8Tm+G2/FUmGr3mIr7elc4ehYt/fecSSJEwFGNFU/radKqT/6g==}
     requiresBuild: true
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-ast': 0.98.0
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-error': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-ast': 0.99.1
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-error': 0.99.0
+      '@types/ramda': 0.29.12
       ramda: 0.29.1
       ramda-adjunct: 4.1.1(ramda@0.29.1)
       tree-sitter: 0.20.4
@@ -3313,12 +3205,12 @@ packages:
     dev: false
     optional: true
 
-  /@swagger-api/apidom-reference@0.98.3:
-    resolution: {integrity: sha512-S7xink9IOmam6AlceCIgOvBKLqc8PirATsQcJiyJ/RvzS5bS8HC01laAkHv7LSIOd43887EzURep8yqzk/UYLg==}
+  /@swagger-api/apidom-reference@0.99.1:
+    resolution: {integrity: sha512-g7xp+ZL/iRX6CEwdUnqqsLfZmaSRlXwEZV8LF1k4k13/o7Qcf7bsPv0fOVGa8ZC29zM8k//FVavwWoXvT2xrFQ==}
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@types/ramda': 0.29.11
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@types/ramda': 0.29.12
       axios: 1.6.8
       minimatch: 7.4.6
       process: 0.11.10
@@ -3326,27 +3218,27 @@ packages:
       ramda-adjunct: 4.1.1(ramda@0.29.1)
       stampit: 4.3.2
     optionalDependencies:
-      '@swagger-api/apidom-error': 0.98.0
-      '@swagger-api/apidom-json-pointer': 0.98.0
-      '@swagger-api/apidom-ns-asyncapi-2': 0.98.0
-      '@swagger-api/apidom-ns-openapi-2': 0.98.0
-      '@swagger-api/apidom-ns-openapi-3-0': 0.98.0
-      '@swagger-api/apidom-ns-openapi-3-1': 0.98.0
-      '@swagger-api/apidom-ns-workflows-1': 0.98.0
-      '@swagger-api/apidom-parser-adapter-api-design-systems-json': 0.98.0
-      '@swagger-api/apidom-parser-adapter-api-design-systems-yaml': 0.98.0
-      '@swagger-api/apidom-parser-adapter-asyncapi-json-2': 0.98.0
-      '@swagger-api/apidom-parser-adapter-asyncapi-yaml-2': 0.98.0
-      '@swagger-api/apidom-parser-adapter-json': 0.98.0
-      '@swagger-api/apidom-parser-adapter-openapi-json-2': 0.98.0
-      '@swagger-api/apidom-parser-adapter-openapi-json-3-0': 0.98.0
-      '@swagger-api/apidom-parser-adapter-openapi-json-3-1': 0.98.0
-      '@swagger-api/apidom-parser-adapter-openapi-yaml-2': 0.98.0
-      '@swagger-api/apidom-parser-adapter-openapi-yaml-3-0': 0.98.0
-      '@swagger-api/apidom-parser-adapter-openapi-yaml-3-1': 0.98.0
-      '@swagger-api/apidom-parser-adapter-workflows-json-1': 0.98.0
-      '@swagger-api/apidom-parser-adapter-workflows-yaml-1': 0.98.0
-      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.98.0
+      '@swagger-api/apidom-error': 0.99.0
+      '@swagger-api/apidom-json-pointer': 0.99.1
+      '@swagger-api/apidom-ns-asyncapi-2': 0.99.1
+      '@swagger-api/apidom-ns-openapi-2': 0.99.1
+      '@swagger-api/apidom-ns-openapi-3-0': 0.99.1
+      '@swagger-api/apidom-ns-openapi-3-1': 0.99.1
+      '@swagger-api/apidom-ns-workflows-1': 0.99.1
+      '@swagger-api/apidom-parser-adapter-api-design-systems-json': 0.99.1
+      '@swagger-api/apidom-parser-adapter-api-design-systems-yaml': 0.99.1
+      '@swagger-api/apidom-parser-adapter-asyncapi-json-2': 0.99.1
+      '@swagger-api/apidom-parser-adapter-asyncapi-yaml-2': 0.99.1
+      '@swagger-api/apidom-parser-adapter-json': 0.99.1
+      '@swagger-api/apidom-parser-adapter-openapi-json-2': 0.99.1
+      '@swagger-api/apidom-parser-adapter-openapi-json-3-0': 0.99.1
+      '@swagger-api/apidom-parser-adapter-openapi-json-3-1': 0.99.1
+      '@swagger-api/apidom-parser-adapter-openapi-yaml-2': 0.99.1
+      '@swagger-api/apidom-parser-adapter-openapi-yaml-3-0': 0.99.1
+      '@swagger-api/apidom-parser-adapter-openapi-yaml-3-1': 0.99.1
+      '@swagger-api/apidom-parser-adapter-workflows-json-1': 0.99.1
+      '@swagger-api/apidom-parser-adapter-workflows-yaml-1': 0.99.1
+      '@swagger-api/apidom-parser-adapter-yaml-1-2': 0.99.1
     transitivePeerDependencies:
       - debug
     dev: false
@@ -3425,10 +3317,10 @@ packages:
   /@types/prop-types@15.7.12:
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
 
-  /@types/ramda@0.29.11:
-    resolution: {integrity: sha512-jm1+PmNOpE7aPS+mMcuB4a72VkCXUJqPSaQRu2YqR8MbsFfaowYXgKxc7bluYdDpRHNXT5Z+xu+Lgr3/ml6wSA==}
+  /@types/ramda@0.29.12:
+    resolution: {integrity: sha512-sgIEjpJhdQPB52gDF4aphs9nl0xe54CR22DPdWqT8gQHjZYmVApgA0R3/CpMbl0Y8az2TEZrPNL2zy0EvjbkLA==}
     dependencies:
-      types-ramda: 0.29.9
+      types-ramda: 0.29.10
     dev: false
 
   /@types/react-dom@18.2.23:
@@ -5179,8 +5071,8 @@ packages:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
     dev: true
 
-  /framer-motion@11.0.24(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-l2iM8NR53qtcujgAqYvGPJJGModPNWEVUaATRDLfnaLvUoFpImovBm0AHalSSsY8tW6knP8mfJTW4WYGbnAe4w==}
+  /framer-motion@11.0.25(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-mRt7vQGzA7++wTgb+PW1TrlXXgndqR6hCiJ48fXr2X9alte2hPQiAq556HRwDCt0Q5X98MNvcSe4KUa27Gm5Lg==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
@@ -6195,8 +6087,8 @@ packages:
       - babel-plugin-macros
     dev: false
 
-  /node-abi@3.56.0:
-    resolution: {integrity: sha512-fZjdhDOeRcaS+rcpve7XuwHBmktS1nS1gzgghwKUQQ8nTy2FdSDr6ZT8k6YhvlJeHmmQMYiT/IH9hfco5zeW2Q==}
+  /node-abi@3.57.0:
+    resolution: {integrity: sha512-Dp+A9JWxRaKuHP35H77I4kCKesDy5HUDEmScia2FyncMTOXASMyg251F5PhFoDA5uqBrDDffiLpbqnrZmNXW+g==}
     engines: {node: '>=10'}
     requiresBuild: true
     dependencies:
@@ -6522,7 +6414,7 @@ packages:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.56.0
+      node-abi: 3.57.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1
@@ -7252,15 +7144,15 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /swagger-client@3.26.4:
-    resolution: {integrity: sha512-Xj1DGEvnQt8dCJy15aPBhfzgxio1VzNEAsyRWVo/sorf8Ocs6nc4Ktx0xRqGFzgheDtUoCw/OXeSTeFKGtYmNA==}
+  /swagger-client@3.26.6:
+    resolution: {integrity: sha512-PYYca8BsamZaOjlKr5ombOTeDje1ddiYAKGstpmAU3iU+mBKgqHiw5G2J77SC9+chKU5y0aJzmQX4hNu3p2y5A==}
     dependencies:
-      '@babel/runtime-corejs3': 7.24.1
-      '@swagger-api/apidom-core': 0.98.0
-      '@swagger-api/apidom-error': 0.98.0
-      '@swagger-api/apidom-json-pointer': 0.98.0
-      '@swagger-api/apidom-ns-openapi-3-1': 0.98.0
-      '@swagger-api/apidom-reference': 0.98.3
+      '@babel/runtime-corejs3': 7.24.4
+      '@swagger-api/apidom-core': 0.99.1
+      '@swagger-api/apidom-error': 0.99.0
+      '@swagger-api/apidom-json-pointer': 0.99.1
+      '@swagger-api/apidom-ns-openapi-3-1': 0.99.1
+      '@swagger-api/apidom-reference': 0.99.1
       cookie: 0.6.0
       deepmerge: 4.3.1
       fast-json-patch: 3.1.1
@@ -7614,8 +7506,8 @@ packages:
     resolution: {integrity: sha512-7uc1O8h1M1g0rArakJdf0uLRSSgFcYexrVoKo+bzJd32gd4gDy2L/Z+8/FjPnU9ydY3pEnVPtr9FyscYY60K1g==}
     dev: false
 
-  /types-ramda@0.29.9:
-    resolution: {integrity: sha512-B+VbLtW68J4ncG/rccKaYDhlirKlVH/Izh2JZUfaPJv+3Tl2jbbgYsB1pvole1vXKSgaPlAe/wgEdOnMdAu52A==}
+  /types-ramda@0.29.10:
+    resolution: {integrity: sha512-5PJiW/eiTPyXXBYGZOYGezMl6qj7keBiZheRwfjJZY26QPHsNrjfJnz0mru6oeqqoTHOni893Jfd6zyUXfQRWg==}
     dependencies:
       ts-toolbelt: 9.6.0
     dev: false
