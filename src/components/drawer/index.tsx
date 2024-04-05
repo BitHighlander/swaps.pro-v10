@@ -16,16 +16,13 @@ import {
     Badge,
     Button,
 } from '@chakra-ui/react';
+import {usePioneer} from "@coinmasters/pioneer-react";
 
-const Drawr = ({ isOpen, onClose, wallets, context, connectWallet }:any) => {
-    // Moved showAll state and toggle function inside the Drawr component
-    const [walletsLocal, setWalletsLocal] = useState([]);
-    const [showAll, setShowAll] = useState(false);
+const Drawr = ({ isOpen, onClose }:any) => {
+    const { state, connectWallet } = usePioneer();
+    const { api, app, assets, context, wallets } = state;
+    const [showAll, setShowAll] = useState(true);
     const toggleShowAll = () => setShowAll(!showAll);
-
-    useEffect(() => {
-        if(wallets && wallets.length > 0)setWalletsLocal(wallets);
-    }, [wallets]);
 
     return (
         <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
@@ -42,7 +39,7 @@ const Drawr = ({ isOpen, onClose, wallets, context, connectWallet }:any) => {
                             </Text>
                         )}
                         {showAll
-                            ? walletsLocal.map((wallet: any) => (
+                            ? app?.wallets.map((wallet: any) => (
                                 <Card key={wallet.type}>
                                     <Box
                                         key={wallet.type}
@@ -76,7 +73,7 @@ const Drawr = ({ isOpen, onClose, wallets, context, connectWallet }:any) => {
                                     </Box>
                                 </Card>
                             ))
-                            : walletsLocal
+                            : app?.wallets
                                 .filter((wallet:any) => wallet.wallet.isDetected)
                                 .map((wallet: any) => (
                                     <Card key={wallet.type}>

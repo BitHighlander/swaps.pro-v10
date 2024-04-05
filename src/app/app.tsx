@@ -11,6 +11,7 @@ import Leaderboard from '../components/leaderboard';
 //components
 import {
   Swap,
+  Pioneer,
 } from '@coinmasters/pioneer-lib';
 import Image from 'next/image';
 
@@ -74,14 +75,12 @@ export default function App() {
           {/* Website title */}
           <span className="text-xl font-bold">Swaps.PRO</span>
         </div>
-        <button onClick={toggleDrawer}>Connect Wallet</button>
-        <Drawr
-            isOpen={isOpen}
-            onClose={toggleDrawer}
-            wallets={wallets}
-            context={context}
-            connectWallet={connectWallet}
-        />
+        <Pioneer usePioneer={usePioneer} />
+        {/*<button onClick={toggleDrawer}>Connect Wallet</button>*/}
+        {/*<Drawr*/}
+        {/*    isOpen={isOpen}*/}
+        {/*    onClose={toggleDrawer}*/}
+        {/*/>*/}
       </header>
 
       {/* Main Content */}
