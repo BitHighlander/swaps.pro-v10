@@ -29,9 +29,9 @@ export default function App() {
     onStartApp();
   }, []);
 
-  useEffect(() => {
-    if(app && app.assetContext) setSelectedAsset(app.assetContext)
-  }, [app, app?.assetContext]);
+  // useEffect(() => {
+  //   if(app && app.assetContext) setSelectedAsset(app.assetContext)
+  // }, [app, app?.assetContext]);
 
   const handleTabsChange = (index: any) => {
     setTabIndex(index);

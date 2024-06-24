@@ -9,23 +9,23 @@ dependencies:
     specifier: ^2.8.2
     version: 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.2.10)(react-dom@18.3.1)(react@18.3.1)
   '@coinmasters/pioneer-lib':
-    specifier: ^0.1.38
-    version: 0.1.38(@babel/core@7.24.5)(@chakra-ui/system@2.6.2)(@types/node@20.12.8)(@types/react@18.3.1)
+    specifier: ^0.1.51
+    version: 0.1.52(@babel/core@7.24.5)(@chakra-ui/system@2.6.2)(@types/node@20.12.8)(@types/react@18.3.1)
   '@coinmasters/pioneer-react':
-    specifier: ^0.7.29
-    version: 0.7.29(ramda@0.30.0)
+    specifier: ^0.7.40
+    version: 0.7.41(ramda@0.30.0)
   '@coinmasters/types':
-    specifier: ^4.7.29
-    version: 4.7.29
+    specifier: ^4.7.39
+    version: 4.7.41
   '@coinmasters/wallet-evm-extensions':
-    specifier: ^11.0.29
-    version: 11.0.29(@coinmasters/toolbox-evm@11.0.29)(ethers@6.12.1)
+    specifier: ^11.0.39
+    version: 11.0.41(@coinmasters/toolbox-evm@11.0.41)(ethers@6.12.1)
   '@coinmasters/wallet-keepkey':
-    specifier: ^13.0.29
-    version: 13.0.29(@coinmasters/toolbox-cosmos@11.0.29)(@coinmasters/toolbox-evm@11.0.29)(@coinmasters/toolbox-ripple@11.0.29)(@coinmasters/toolbox-utxo@11.0.29)(@keepkey/keepkey-sdk@0.2.57)(@types/node@20.12.8)(bitcoinjs-lib@5.2.0)
+    specifier: ^13.0.39
+    version: 13.0.41(@coinmasters/toolbox-cosmos@11.0.41)(@coinmasters/toolbox-evm@11.0.41)(@coinmasters/toolbox-ripple@11.0.41)(@coinmasters/toolbox-utxo@11.0.41)(@keepkey/keepkey-sdk@0.2.57)(@types/node@20.12.8)(bitcoinjs-lib@5.2.0)
   '@coinmasters/wallet-wc':
-    specifier: ^11.0.29
-    version: 11.0.29(@coinmasters/toolbox-cosmos@11.0.29)(@coinmasters/toolbox-evm@11.0.29)(@cosmjs/amino@0.31.1)(@cosmjs/encoding@0.31.1)(@cosmjs/math@0.31.1)(@cosmjs/proto-signing@0.31.1)(@cosmjs/stargate@0.31.1)(@types/react@18.3.1)(cosmjs-types@0.8.0)(react@18.3.1)
+    specifier: ^11.0.39
+    version: 11.0.41(@coinmasters/toolbox-cosmos@11.0.41)(@coinmasters/toolbox-evm@11.0.41)(@cosmjs/amino@0.31.1)(@cosmjs/encoding@0.31.1)(@cosmjs/math@0.31.1)(@cosmjs/proto-signing@0.31.1)(@cosmjs/stargate@0.31.1)(@types/react@18.3.1)(cosmjs-types@0.8.0)(react@18.3.1)
   axios:
     specifier: ^1.6.8
     version: 1.6.8
@@ -295,25 +295,6 @@ packages:
       '@babel/helper-string-parser': 7.24.1
       '@babel/helper-validator-identifier': 7.24.5
       to-fast-properties: 2.0.0
-    dev: false
-
-  /@chakra-ui/accordion@2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.1.7)(react@18.3.1):
-    resolution: {integrity: sha512-FSXRm8iClFyU+gVaXisOSEw0/4Q+qZbFRiuhIAkVU6Boj0FxAMrlo9a8AV5TuF77rgaHytCdHk0Ng+cyUijrag==}
-    peerDependencies:
-      '@chakra-ui/system': '>=2.0.0'
-      framer-motion: '>=4.0.0'
-      react: '>=18'
-    dependencies:
-      '@chakra-ui/descendant': 3.1.0(react@18.3.1)
-      '@chakra-ui/icon': 3.2.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/react-context': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-controllable-state': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-merge-refs': 2.1.0(react@18.3.1)
-      '@chakra-ui/shared-utils': 2.0.5
-      '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.3.1)
-      '@chakra-ui/transition': 2.1.0(framer-motion@11.1.7)(react@18.3.1)
-      framer-motion: 11.1.7(react-dom@18.3.1)(react@18.3.1)
-      react: 18.3.1
     dev: false
 
   /@chakra-ui/accordion@2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.2.10)(react@18.3.1):
@@ -659,33 +640,6 @@ packages:
       react: 18.3.1
     dev: false
 
-  /@chakra-ui/menu@2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.1.7)(react@18.3.1):
-    resolution: {integrity: sha512-lJS7XEObzJxsOwWQh7yfG4H8FzFPRP5hVPN/CL+JzytEINCSBvsCDHrYPQGp7jzpCi8vnTqQQGQe0f8dwnXd2g==}
-    peerDependencies:
-      '@chakra-ui/system': '>=2.0.0'
-      framer-motion: '>=4.0.0'
-      react: '>=18'
-    dependencies:
-      '@chakra-ui/clickable': 2.1.0(react@18.3.1)
-      '@chakra-ui/descendant': 3.1.0(react@18.3.1)
-      '@chakra-ui/lazy-utils': 2.0.5
-      '@chakra-ui/popper': 3.1.0(react@18.3.1)
-      '@chakra-ui/react-children-utils': 2.0.6(react@18.3.1)
-      '@chakra-ui/react-context': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-animation-state': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-controllable-state': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-disclosure': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-focus-effect': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-merge-refs': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-outside-click': 2.2.0(react@18.3.1)
-      '@chakra-ui/react-use-update-effect': 2.1.0(react@18.3.1)
-      '@chakra-ui/shared-utils': 2.0.5
-      '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.3.1)
-      '@chakra-ui/transition': 2.1.0(framer-motion@11.1.7)(react@18.3.1)
-      framer-motion: 11.1.7(react-dom@18.3.1)(react@18.3.1)
-      react: 18.3.1
-    dev: false
-
   /@chakra-ui/menu@2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.2.10)(react@18.3.1):
     resolution: {integrity: sha512-lJS7XEObzJxsOwWQh7yfG4H8FzFPRP5hVPN/CL+JzytEINCSBvsCDHrYPQGp7jzpCi8vnTqQQGQe0f8dwnXd2g==}
     peerDependencies:
@@ -711,32 +665,6 @@ packages:
       '@chakra-ui/transition': 2.1.0(framer-motion@11.2.10)(react@18.3.1)
       framer-motion: 11.2.10(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
-    dev: false
-
-  /@chakra-ui/modal@2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-TQv1ZaiJMZN+rR9DK0snx/OPwmtaGH1HbZtlYt4W4s6CzyK541fxLRTjIXfEzIGpvNW+b6VFuFjbcR78p4DEoQ==}
-    peerDependencies:
-      '@chakra-ui/system': '>=2.0.0'
-      framer-motion: '>=4.0.0'
-      react: '>=18'
-      react-dom: '>=18'
-    dependencies:
-      '@chakra-ui/close-button': 2.1.1(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/focus-lock': 2.1.0(@types/react@18.3.1)(react@18.3.1)
-      '@chakra-ui/portal': 2.1.0(react-dom@18.3.1)(react@18.3.1)
-      '@chakra-ui/react-context': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-types': 2.0.7(react@18.3.1)
-      '@chakra-ui/react-use-merge-refs': 2.1.0(react@18.3.1)
-      '@chakra-ui/shared-utils': 2.0.5
-      '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.3.1)
-      '@chakra-ui/transition': 2.1.0(framer-motion@11.1.7)(react@18.3.1)
-      aria-hidden: 1.2.4
-      framer-motion: 11.1.7(react-dom@18.3.1)(react@18.3.1)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-remove-scroll: 2.5.9(@types/react@18.3.1)(react@18.3.1)
-    transitivePeerDependencies:
-      - '@types/react'
     dev: false
 
   /@chakra-ui/modal@2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.3.1)(framer-motion@11.2.10)(react-dom@18.3.1)(react@18.3.1):
@@ -773,7 +701,7 @@ packages:
       next: '>=13'
       react: '>=18'
     dependencies:
-      '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.3.1)(react@18.3.1)
+      '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.2.10)(react-dom@18.3.1)(react@18.3.1)
       '@emotion/cache': 11.11.0
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.3.1)
       next: 14.1.0(@babel/core@7.24.5)(react-dom@18.3.1)(react@18.3.1)
@@ -823,29 +751,6 @@ packages:
       '@chakra-ui/react-use-merge-refs': 2.1.0(react@18.3.1)
       '@chakra-ui/shared-utils': 2.0.5
       '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.3.1)
-      react: 18.3.1
-    dev: false
-
-  /@chakra-ui/popover@2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.1.7)(react@18.3.1):
-    resolution: {integrity: sha512-K+2ai2dD0ljvJnlrzesCDT9mNzLifE3noGKZ3QwLqd/K34Ym1W/0aL1ERSynrcG78NKoXS54SdEzkhCZ4Gn/Zg==}
-    peerDependencies:
-      '@chakra-ui/system': '>=2.0.0'
-      framer-motion: '>=4.0.0'
-      react: '>=18'
-    dependencies:
-      '@chakra-ui/close-button': 2.1.1(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/lazy-utils': 2.0.5
-      '@chakra-ui/popper': 3.1.0(react@18.3.1)
-      '@chakra-ui/react-context': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-types': 2.0.7(react@18.3.1)
-      '@chakra-ui/react-use-animation-state': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-disclosure': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-focus-effect': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-focus-on-pointer-down': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-merge-refs': 2.1.0(react@18.3.1)
-      '@chakra-ui/shared-utils': 2.0.5
-      '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.3.1)
-      framer-motion: 11.1.7(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
     dev: false
 
@@ -1136,77 +1041,6 @@ packages:
       react: 18.3.1
     dev: false
 
-  /@chakra-ui/react@2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-Hn0moyxxyCDKuR9ywYpqgX8dvjqwu9ArwpIb9wHNYjnODETjLwazgNIliCVBRcJvysGRiV51U2/JtJVrpeCjUQ==}
-    peerDependencies:
-      '@emotion/react': ^11.0.0
-      '@emotion/styled': ^11.0.0
-      framer-motion: '>=4.0.0'
-      react: '>=18'
-      react-dom: '>=18'
-    dependencies:
-      '@chakra-ui/accordion': 2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.1.7)(react@18.3.1)
-      '@chakra-ui/alert': 2.2.2(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/avatar': 2.3.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/breadcrumb': 2.2.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/button': 2.1.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/card': 2.2.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/checkbox': 2.3.2(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/close-button': 2.1.1(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/control-box': 2.1.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/counter': 2.1.0(react@18.3.1)
-      '@chakra-ui/css-reset': 2.3.0(@emotion/react@11.11.4)(react@18.3.1)
-      '@chakra-ui/editable': 3.1.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/focus-lock': 2.1.0(@types/react@18.3.1)(react@18.3.1)
-      '@chakra-ui/form-control': 2.2.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/hooks': 2.2.1(react@18.3.1)
-      '@chakra-ui/icon': 3.2.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/image': 2.1.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/input': 2.1.2(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/layout': 2.3.1(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/live-region': 2.1.0(react@18.3.1)
-      '@chakra-ui/media-query': 3.3.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/menu': 2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.1.7)(react@18.3.1)
-      '@chakra-ui/modal': 2.3.1(@chakra-ui/system@2.6.2)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.3.1)(react@18.3.1)
-      '@chakra-ui/number-input': 2.1.2(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/pin-input': 2.1.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/popover': 2.2.1(@chakra-ui/system@2.6.2)(framer-motion@11.1.7)(react@18.3.1)
-      '@chakra-ui/popper': 3.1.0(react@18.3.1)
-      '@chakra-ui/portal': 2.1.0(react-dom@18.3.1)(react@18.3.1)
-      '@chakra-ui/progress': 2.2.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/provider': 2.4.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react-dom@18.3.1)(react@18.3.1)
-      '@chakra-ui/radio': 2.1.2(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/react-env': 3.1.0(react@18.3.1)
-      '@chakra-ui/select': 2.1.2(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/skeleton': 2.1.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/skip-nav': 2.1.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/slider': 2.1.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/spinner': 2.1.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/stat': 2.1.1(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/stepper': 2.3.1(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/styled-system': 2.9.2
-      '@chakra-ui/switch': 2.1.2(@chakra-ui/system@2.6.2)(framer-motion@11.1.7)(react@18.3.1)
-      '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.3.1)
-      '@chakra-ui/table': 2.1.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/tabs': 3.0.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/tag': 3.1.1(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/textarea': 2.1.2(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/theme': 3.3.1(@chakra-ui/styled-system@2.9.2)
-      '@chakra-ui/theme-utils': 2.0.21
-      '@chakra-ui/toast': 7.0.2(@chakra-ui/system@2.6.2)(framer-motion@11.1.7)(react-dom@18.3.1)(react@18.3.1)
-      '@chakra-ui/tooltip': 2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.1.7)(react-dom@18.3.1)(react@18.3.1)
-      '@chakra-ui/transition': 2.1.0(framer-motion@11.1.7)(react@18.3.1)
-      '@chakra-ui/utils': 2.0.15
-      '@chakra-ui/visually-hidden': 2.2.0(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.3.1)
-      '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.3.1)
-      framer-motion: 11.1.7(react-dom@18.3.1)(react@18.3.1)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: false
-
   /@chakra-ui/react@2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.2.10)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-Hn0moyxxyCDKuR9ywYpqgX8dvjqwu9ArwpIb9wHNYjnODETjLwazgNIliCVBRcJvysGRiV51U2/JtJVrpeCjUQ==}
     peerDependencies:
@@ -1382,20 +1216,6 @@ packages:
       lodash.mergewith: 4.6.2
     dev: false
 
-  /@chakra-ui/switch@2.1.2(@chakra-ui/system@2.6.2)(framer-motion@11.1.7)(react@18.3.1):
-    resolution: {integrity: sha512-pgmi/CC+E1v31FcnQhsSGjJnOE2OcND4cKPyTE+0F+bmGm48Q/b5UmKD9Y+CmZsrt/7V3h8KNczowupfuBfIHA==}
-    peerDependencies:
-      '@chakra-ui/system': '>=2.0.0'
-      framer-motion: '>=4.0.0'
-      react: '>=18'
-    dependencies:
-      '@chakra-ui/checkbox': 2.3.2(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/shared-utils': 2.0.5
-      '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.3.1)
-      framer-motion: 11.1.7(react-dom@18.3.1)(react@18.3.1)
-      react: 18.3.1
-    dev: false
-
   /@chakra-ui/switch@2.1.2(@chakra-ui/system@2.6.2)(framer-motion@11.2.10)(react@18.3.1):
     resolution: {integrity: sha512-pgmi/CC+E1v31FcnQhsSGjJnOE2OcND4cKPyTE+0F+bmGm48Q/b5UmKD9Y+CmZsrt/7V3h8KNczowupfuBfIHA==}
     peerDependencies:
@@ -1515,29 +1335,6 @@ packages:
       '@chakra-ui/theme-tools': 2.1.2(@chakra-ui/styled-system@2.9.2)
     dev: false
 
-  /@chakra-ui/toast@7.0.2(@chakra-ui/system@2.6.2)(framer-motion@11.1.7)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-yvRP8jFKRs/YnkuE41BVTq9nB2v/KDRmje9u6dgDmE5+1bFt3bwjdf9gVbif4u5Ve7F7BGk5E093ARRVtvLvXA==}
-    peerDependencies:
-      '@chakra-ui/system': 2.6.2
-      framer-motion: '>=4.0.0'
-      react: '>=18'
-      react-dom: '>=18'
-    dependencies:
-      '@chakra-ui/alert': 2.2.2(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/close-button': 2.1.1(@chakra-ui/system@2.6.2)(react@18.3.1)
-      '@chakra-ui/portal': 2.1.0(react-dom@18.3.1)(react@18.3.1)
-      '@chakra-ui/react-context': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-timeout': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-update-effect': 2.1.0(react@18.3.1)
-      '@chakra-ui/shared-utils': 2.0.5
-      '@chakra-ui/styled-system': 2.9.2
-      '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.3.1)
-      '@chakra-ui/theme': 3.3.1(@chakra-ui/styled-system@2.9.2)
-      framer-motion: 11.1.7(react-dom@18.3.1)(react@18.3.1)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-    dev: false
-
   /@chakra-ui/toast@7.0.2(@chakra-ui/system@2.6.2)(framer-motion@11.2.10)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-yvRP8jFKRs/YnkuE41BVTq9nB2v/KDRmje9u6dgDmE5+1bFt3bwjdf9gVbif4u5Ve7F7BGk5E093ARRVtvLvXA==}
     peerDependencies:
@@ -1557,28 +1354,6 @@ packages:
       '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.3.1)
       '@chakra-ui/theme': 3.3.1(@chakra-ui/styled-system@2.9.2)
       framer-motion: 11.2.10(react-dom@18.3.1)(react@18.3.1)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-    dev: false
-
-  /@chakra-ui/tooltip@2.3.1(@chakra-ui/system@2.6.2)(framer-motion@11.1.7)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-Rh39GBn/bL4kZpuEMPPRwYNnccRCL+w9OqamWHIB3Qboxs6h8cOyXfIdGxjo72lvhu1QI/a4KFqkM3St+WfC0A==}
-    peerDependencies:
-      '@chakra-ui/system': '>=2.0.0'
-      framer-motion: '>=4.0.0'
-      react: '>=18'
-      react-dom: '>=18'
-    dependencies:
-      '@chakra-ui/dom-utils': 2.1.0
-      '@chakra-ui/popper': 3.1.0(react@18.3.1)
-      '@chakra-ui/portal': 2.1.0(react-dom@18.3.1)(react@18.3.1)
-      '@chakra-ui/react-types': 2.0.7(react@18.3.1)
-      '@chakra-ui/react-use-disclosure': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-event-listener': 2.1.0(react@18.3.1)
-      '@chakra-ui/react-use-merge-refs': 2.1.0(react@18.3.1)
-      '@chakra-ui/shared-utils': 2.0.5
-      '@chakra-ui/system': 2.6.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(react@18.3.1)
-      framer-motion: 11.1.7(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: false
@@ -1603,17 +1378,6 @@ packages:
       framer-motion: 11.2.10(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-    dev: false
-
-  /@chakra-ui/transition@2.1.0(framer-motion@11.1.7)(react@18.3.1):
-    resolution: {integrity: sha512-orkT6T/Dt+/+kVwJNy7zwJ+U2xAZ3EU7M3XCs45RBvUnZDr/u9vdmaM/3D/rOpmQJWgQBwKPJleUXrYWUagEDQ==}
-    peerDependencies:
-      framer-motion: '>=4.0.0'
-      react: '>=18'
-    dependencies:
-      '@chakra-ui/shared-utils': 2.0.5
-      framer-motion: 11.1.7(react-dom@18.3.1)(react@18.3.1)
-      react: 18.3.1
     dev: false
 
   /@chakra-ui/transition@2.1.0(framer-motion@11.2.10)(react@18.3.1):
@@ -1646,56 +1410,56 @@ packages:
       react: 18.3.1
     dev: false
 
-  /@coinmasters/api@3.7.29:
-    resolution: {integrity: sha512-K2P8nG59BhaIsUVud5FU/VGgS6kTAdDB5nUlU7iZnzHeYlaBalAi0feNO2vEJ3bmUOfR9iUJVPqPxQ+0JoLW1A==}
+  /@coinmasters/api@3.7.41:
+    resolution: {integrity: sha512-U2yUCa7dXk00UqS8ubWCFsjECFkYyeccFDeyOfO9Jd2mYDFPasI9DxmKxIrwXYMnqWFMTolg1GgqiiDGnmlEhA==}
     dependencies:
-      '@coinmasters/types': 4.7.29
+      '@coinmasters/types': 4.7.41
       ky: 1.1.3
     dev: false
 
-  /@coinmasters/core@11.0.29(@coinmasters/api@3.7.29)(@coinmasters/toolbox-cosmos@11.0.29)(@coinmasters/toolbox-evm@11.0.29)(@coinmasters/toolbox-utxo@11.0.29)(@types/node@18.15.13):
-    resolution: {integrity: sha512-+aat78ymjTbF6zQM63AfqdcET96NbjBwv46ZsxesfXev1phXefq75pnXtW6wKJTpTDib9CItQQlh0AyseaokXQ==}
+  /@coinmasters/core@11.0.41(@coinmasters/api@3.7.41)(@coinmasters/toolbox-cosmos@11.0.41)(@coinmasters/toolbox-evm@11.0.41)(@coinmasters/toolbox-utxo@11.0.41)(@types/node@18.15.13):
+    resolution: {integrity: sha512-AuRKcyiu9r6oQ3yJ/gNPO2KT1/wgDZvMq0ajSDHuv7Knq4Y/xs2Ks/RimjGgLvZF81JViA37GBgryYPnbn0eeg==}
     peerDependencies:
-      '@coinmasters/api': 3.7.29
-      '@coinmasters/toolbox-cosmos': 11.0.29
-      '@coinmasters/toolbox-evm': 11.0.29
-      '@coinmasters/toolbox-utxo': 11.0.29
+      '@coinmasters/api': 3.7.41
+      '@coinmasters/toolbox-cosmos': 11.0.41
+      '@coinmasters/toolbox-evm': 11.0.41
+      '@coinmasters/toolbox-utxo': 11.0.41
     dependencies:
-      '@coinmasters/api': 3.7.29
-      '@coinmasters/toolbox-cosmos': 11.0.29
-      '@coinmasters/toolbox-evm': 11.0.29
-      '@coinmasters/toolbox-utxo': 11.0.29
-      '@coinmasters/types': 4.7.29
-      '@pioneer-platform/helpers': 4.0.3
+      '@coinmasters/api': 3.7.41
+      '@coinmasters/toolbox-cosmos': 11.0.41
+      '@coinmasters/toolbox-evm': 11.0.41
+      '@coinmasters/toolbox-utxo': 11.0.41
+      '@coinmasters/types': 4.7.41
+      '@pioneer-platform/helpers': 4.0.10
       '@pioneer-platform/loggerdog': 8.3.1(@types/node@18.15.13)
-      '@pioneer-platform/pioneer-caip': 9.2.26
+      '@pioneer-platform/pioneer-caip': 9.2.32
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
       - '@types/node'
     dev: false
 
-  /@coinmasters/pioneer-db@4.7.28:
-    resolution: {integrity: sha512-QQQUWEEyYsjLQLgtrEISNN6Md0FHNThP7OfZ0+2DOvWa30UV6LQDtpAVkdhR/aia2zz1Ryr/Eig6JJn+Mp5l6g==}
+  /@coinmasters/pioneer-db@4.7.40:
+    resolution: {integrity: sha512-ME7sKil8VtrS5QzR39uiwyrxQYhCGdBAkXEh9TC3SC2l1NvqWbqMFXXLA3raYQoi9u3vdDOsra0wdTl5F/yS8g==}
     dependencies:
       idb: 8.0.0
     dev: false
 
-  /@coinmasters/pioneer-lib@0.1.38(@babel/core@7.24.5)(@chakra-ui/system@2.6.2)(@types/node@20.12.8)(@types/react@18.3.1):
-    resolution: {integrity: sha512-8u1poI+KY4/OULwLZ7tllvsr2FceGXe1HEHd3U4n2pFZ8sYTvGNKyYtKBTmxyS6/oCNbAQf810SLgkhWH5xIlA==}
+  /@coinmasters/pioneer-lib@0.1.52(@babel/core@7.24.5)(@chakra-ui/system@2.6.2)(@types/node@20.12.8)(@types/react@18.3.1):
+    resolution: {integrity: sha512-jtE2rF7CGITQrOe+pj9/b04KrqTFoWK0WbRw6ZZy9fuWrzY1QM08BDMHTGyM5+Q1Z7f6xtlOA4e+r6GDtDnWRA==}
     dependencies:
       '@chakra-ui/icons': 2.1.1(@chakra-ui/system@2.6.2)(react@18.3.1)
       '@chakra-ui/next-js': 2.2.0(@chakra-ui/react@2.8.2)(@emotion/react@11.11.4)(next@14.1.0)(react@18.3.1)
-      '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.1.7)(react-dom@18.3.1)(react@18.3.1)
+      '@chakra-ui/react': 2.8.2(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.3.1)(framer-motion@11.2.10)(react-dom@18.3.1)(react@18.3.1)
       '@emotion/react': 11.11.4(@types/react@18.3.1)(react@18.3.1)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.3.1)(react@18.3.1)
       '@fontsource/roboto': 5.0.13
-      '@pioneer-platform/pioneer-caip': 9.2.26
-      '@pioneer-platform/pioneer-coins': 9.2.21(@types/node@20.12.8)
+      '@pioneer-platform/pioneer-caip': 9.2.32
+      '@pioneer-platform/pioneer-coins': 9.2.23(@types/node@20.12.8)
       axios: 1.6.8
       canvas-confetti: 1.9.3
       chart.js: 4.4.2
-      framer-motion: 11.1.7(react-dom@18.3.1)(react@18.3.1)
+      framer-motion: 11.2.10(react-dom@18.3.1)(react@18.3.1)
       next: 14.1.0(@babel/core@7.24.5)(react-dom@18.3.1)(react@18.3.1)
       qrcode.react: 3.1.0(react@18.3.1)
       react: 18.3.1
@@ -1720,14 +1484,14 @@ packages:
       - sass
     dev: false
 
-  /@coinmasters/pioneer-react@0.7.29(ramda@0.30.0):
-    resolution: {integrity: sha512-bdFP/ftnl53qzymR3q9X3OImsMWPxEgVazggt+gvRAzMWeaBwBN/vcLvt12XJFjupDMEPEs/OjsRm9MB3EW8UA==}
+  /@coinmasters/pioneer-react@0.7.41(ramda@0.30.0):
+    resolution: {integrity: sha512-ZibLrKak56zw30Og4MEn3Yx3iM7cg+vqQVhj4YfTb6SFqQ7865d3BRMQMY6wwGNTzL6vEcJg412Y4zxomDecfA==}
     dependencies:
-      '@coinmasters/pioneer-db': 4.7.28
-      '@coinmasters/pioneer-sdk': 4.7.29(@types/node@18.15.13)(ramda@0.30.0)
-      '@coinmasters/types': 4.7.29
-      '@pioneer-platform/pioneer-caip': 9.2.26
-      '@pioneer-platform/pioneer-coins': 9.2.21(@types/node@18.15.13)
+      '@coinmasters/pioneer-db': 4.7.40
+      '@coinmasters/pioneer-sdk': 4.7.41(@types/node@18.15.13)(ramda@0.30.0)
+      '@coinmasters/types': 4.7.41
+      '@pioneer-platform/pioneer-caip': 9.2.32
+      '@pioneer-platform/pioneer-coins': 9.2.23(@types/node@18.15.13)
       '@types/node': 18.15.13
       '@vitest/coverage-istanbul': 0.34.6(vitest@0.34.6)
       ethers: 6.12.1
@@ -1762,22 +1526,22 @@ packages:
       - webdriverio
     dev: false
 
-  /@coinmasters/pioneer-sdk@4.7.29(@types/node@18.15.13)(ramda@0.30.0):
-    resolution: {integrity: sha512-rLrKf52awW0V80z9qmyJLV1TUnmXh5UkKOhgpevF3gqzfyMeOSGpFzQq+UwEvF5Hq4god0b7HF9ZW9cPS+IwmA==}
+  /@coinmasters/pioneer-sdk@4.7.41(@types/node@18.15.13)(ramda@0.30.0):
+    resolution: {integrity: sha512-kpkLi41Ic3Cqk0o1pZItRwOsOsy0fKjHy7Sqk12PPu2AfxhTkvLgWDDrLEXjADUSPSlqp/UQ9lkJfdTb9cchvg==}
     dependencies:
-      '@coinmasters/api': 3.7.29
-      '@coinmasters/core': 11.0.29(@coinmasters/api@3.7.29)(@coinmasters/toolbox-cosmos@11.0.29)(@coinmasters/toolbox-evm@11.0.29)(@coinmasters/toolbox-utxo@11.0.29)(@types/node@18.15.13)
-      '@coinmasters/tokens': 3.7.29
-      '@coinmasters/toolbox-cosmos': 11.0.29
-      '@coinmasters/toolbox-evm': 11.0.29
-      '@coinmasters/toolbox-ripple': 11.0.29
-      '@coinmasters/toolbox-utxo': 11.0.29
-      '@coinmasters/types': 4.7.29
+      '@coinmasters/api': 3.7.41
+      '@coinmasters/core': 11.0.41(@coinmasters/api@3.7.41)(@coinmasters/toolbox-cosmos@11.0.41)(@coinmasters/toolbox-evm@11.0.41)(@coinmasters/toolbox-utxo@11.0.41)(@types/node@18.15.13)
+      '@coinmasters/tokens': 3.7.41
+      '@coinmasters/toolbox-cosmos': 11.0.41
+      '@coinmasters/toolbox-evm': 11.0.41
+      '@coinmasters/toolbox-ripple': 11.0.41
+      '@coinmasters/toolbox-utxo': 11.0.41
+      '@coinmasters/types': 4.7.41
       '@pioneer-platform/loggerdog': 8.3.1(@types/node@18.15.13)
-      '@pioneer-platform/pioneer-caip': 9.2.26
+      '@pioneer-platform/pioneer-caip': 9.2.32
       '@pioneer-platform/pioneer-client': 9.2.5(ramda@0.30.0)
-      '@pioneer-platform/pioneer-coins': 9.2.21(@types/node@18.15.13)
-      '@pioneer-platform/pioneer-discovery': 0.0.7
+      '@pioneer-platform/pioneer-coins': 9.2.23(@types/node@18.15.13)
+      '@pioneer-platform/pioneer-discovery': 0.0.15(@types/node@18.15.13)
     transitivePeerDependencies:
       - '@pioneer-platform/helpers'
       - '@swc/core'
@@ -1789,23 +1553,24 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@coinmasters/tokens@3.7.29:
-    resolution: {integrity: sha512-73S+22Au0/QhS9/ieGTdaqHDM0xmuPFQNGJr8ee1trMzU9dJVhQvgvJsriFOQ1oqqOs+KR3JsEM6oUUR9tzKFg==}
+  /@coinmasters/tokens@3.7.41:
+    resolution: {integrity: sha512-yc3dHPczJCyc3rAQWghYNQFEoKa3+PfZM5uhFQZksMmHoPUaa0kaHPJ5CL7H2ffh9BaSNKCIYvs4Eqgl4HU1aw==}
     dev: false
 
-  /@coinmasters/toolbox-cosmos@11.0.29:
-    resolution: {integrity: sha512-m17bC0cWkuBPBt7VeIwxBQy69Sb91+CjERqwt8n2RYNH5CG006lvBNMTrg8zb6D09jHPfp/znlFzVpZ49LIvuA==}
+  /@coinmasters/toolbox-cosmos@11.0.41:
+    resolution: {integrity: sha512-lEnooZ4Yx5x83s1lf0PDAmRT4KUSgMrFVTvSRp9Utj/zpx+LZll0Np3HsbTnbdLIKP2iPPGy/owZlvNQla//sg==}
     peerDependencies:
       '@pioneer-platform/helpers': latest
     dependencies:
-      '@coinmasters/api': 3.7.29
-      '@coinmasters/types': 4.7.29
+      '@coinmasters/api': 3.7.41
+      '@coinmasters/types': 4.7.41
       '@cosmjs/amino': 0.32.0
       '@cosmjs/crypto': 0.32.0
       '@cosmjs/encoding': 0.32.0
       '@cosmjs/math': 0.32.0
       '@cosmjs/proto-signing': 0.32.0
       '@cosmjs/stargate': 0.32.0
+      '@pioneer-platform/pioneer-caip': 9.2.32
       '@scure/base': 1.1.3
       '@scure/bip32': 1.3.2
       bn.js: 5.2.1
@@ -1821,32 +1586,33 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@coinmasters/toolbox-evm@11.0.29:
-    resolution: {integrity: sha512-9ZyJQAOfIUO1p8L1yFghuAdrUotIC57+pYcEO4LQchWegMSgNYvUzfgVxrotIwewBuPcnDxBb2mBizv8W5D2XQ==}
+  /@coinmasters/toolbox-evm@11.0.41:
+    resolution: {integrity: sha512-mU5bhGFSOYjBzLYiqvh9nlz4mSAopAUJ3NCQy4m7R948przmZPuH1u11KgHOgAwwBqN7G7uCUqvXHL7uPWJzKA==}
     peerDependencies:
-      '@pioneer-platform/helpers': latest
+      '@pioneer-platform/helpers': ^4.0.6
     dependencies:
-      '@coinmasters/types': 4.7.29
-      '@pioneer-platform/pioneer-caip': 9.2.26
+      '@coinmasters/types': 4.7.41
+      '@pioneer-platform/pioneer-caip': 9.2.32
       ethers: 6.9.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
     dev: false
 
-  /@coinmasters/toolbox-ripple@11.0.29:
-    resolution: {integrity: sha512-c3mZ3p7nVDVLFt+lKnZD0rkOe74rbJDkC2BrDXtrJ1+a+G/i0xoloaCZN0NFVcNBPmS9Rnru8EERI8Dsa9f3kA==}
+  /@coinmasters/toolbox-ripple@11.0.41:
+    resolution: {integrity: sha512-qNwAyie7nEtxIk3fDPseqAx+f1jgx4+pMAJ04mc8lT4yWlRQjlafWnH1aQc8Nla2BqPd7nLqvj6XRuz62MIocQ==}
     peerDependencies:
       '@pioneer-platform/helpers': latest
     dependencies:
-      '@coinmasters/api': 3.7.29
-      '@coinmasters/types': 4.7.29
+      '@coinmasters/api': 3.7.41
+      '@coinmasters/types': 4.7.41
       '@cosmjs/amino': 0.31.1
       '@cosmjs/crypto': 0.31.1
       '@cosmjs/encoding': 0.31.1
       '@cosmjs/math': 0.31.1
       '@cosmjs/proto-signing': 0.31.1
       '@cosmjs/stargate': 0.31.1
+      '@pioneer-platform/pioneer-caip': 9.2.32
       '@scure/base': 1.1.3
       '@scure/bip32': 1.3.2
       bn.js: 5.2.1
@@ -1862,11 +1628,12 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@coinmasters/toolbox-utxo@11.0.29:
-    resolution: {integrity: sha512-y6uDDq+qg87nMciGq9TJDIwyemaNrwKcMtwxtOfAzfgPALSL+cxmyfmV1M2g/H5fU2hVDSWnIan0gryRRG4yWw==}
+  /@coinmasters/toolbox-utxo@11.0.41:
+    resolution: {integrity: sha512-d53B+xTiGQcHMaBe5FmfOpVFu6rt4njVs+HrAoPcPmXgJv1q/sXwjWii1cdkZlR0NPZM9xDzG+2r/DAbbcm7gg==}
     dependencies:
-      '@coinmasters/types': 4.7.29
-      '@pioneer-platform/helpers': 4.0.3
+      '@coinmasters/types': 4.7.41
+      '@pioneer-platform/helpers': 4.0.10
+      '@pioneer-platform/pioneer-caip': 9.2.32
       '@psf/bitcoincashjs-lib': 4.0.3
       '@scure/bip32': 1.3.2
       '@scure/bip39': 1.2.1
@@ -1881,43 +1648,43 @@ packages:
       - '@swc/wasm'
     dev: false
 
-  /@coinmasters/types@4.7.29:
-    resolution: {integrity: sha512-iOYXTpG5OY3dzWaCSm0+AsxELRhhp/A/5ifcomhh4pr66FDAx2/Nfn37hGaaM4A9MLuhPuhW+s7DBE6VKdEK5g==}
+  /@coinmasters/types@4.7.41:
+    resolution: {integrity: sha512-hb4binF6wt7ajsjtIcdsHW9RJZsAWDQBRAIgc+YSFLo+n4aGgMSyM+8PkfzLYBEzfJDkEET7u2S3ma1OtCPR7Q==}
     dev: false
 
-  /@coinmasters/wallet-evm-extensions@11.0.29(@coinmasters/toolbox-evm@11.0.29)(ethers@6.12.1):
-    resolution: {integrity: sha512-VASCWEmLy5i90Xnb2q2QOyOvAxSBRlnXFN5Y4we28ZuH4w0paWxjKxcqrb1nRvgZMBWoHYXODfE69hMMydFnmg==}
+  /@coinmasters/wallet-evm-extensions@11.0.41(@coinmasters/toolbox-evm@11.0.41)(ethers@6.12.1):
+    resolution: {integrity: sha512-V1uIyCC8+/WG1caSVDpSy0qlS8I64GCEhjt1a7wVTjuRSgHnpFY+64qGTxxDhDnwx6Ojvrt9OX6HEg+hn+dItg==}
     peerDependencies:
-      '@coinmasters/toolbox-evm': 11.0.29
+      '@coinmasters/toolbox-evm': 11.0.41
       ethers: ^6.9.0
     dependencies:
-      '@coinmasters/toolbox-evm': 11.0.29
-      '@coinmasters/types': 4.7.29
+      '@coinmasters/toolbox-evm': 11.0.41
+      '@coinmasters/types': 4.7.41
       ethers: 6.12.1
     dev: false
 
-  /@coinmasters/wallet-keepkey@13.0.29(@coinmasters/toolbox-cosmos@11.0.29)(@coinmasters/toolbox-evm@11.0.29)(@coinmasters/toolbox-ripple@11.0.29)(@coinmasters/toolbox-utxo@11.0.29)(@keepkey/keepkey-sdk@0.2.57)(@types/node@20.12.8)(bitcoinjs-lib@5.2.0):
-    resolution: {integrity: sha512-V0rArCoscq9xfWIuHKQhH16bph/A8fooyD32RGiah+pIicd1aupC0R/k3YDqVTrG+UtYCVYbjtuPzX8kj3sF6g==}
+  /@coinmasters/wallet-keepkey@13.0.41(@coinmasters/toolbox-cosmos@11.0.41)(@coinmasters/toolbox-evm@11.0.41)(@coinmasters/toolbox-ripple@11.0.41)(@coinmasters/toolbox-utxo@11.0.41)(@keepkey/keepkey-sdk@0.2.57)(@types/node@20.12.8)(bitcoinjs-lib@5.2.0):
+    resolution: {integrity: sha512-LEIuhQHN3D4Mumr2LOOaNS5rtFnxORmcjrNAXCBNmGQwESYImYJPj0tQl2dRBZVPZZ7J/6TIeov/6orvIrq+XA==}
     peerDependencies:
-      '@coinmasters/toolbox-cosmos': 11.0.29
-      '@coinmasters/toolbox-evm': 11.0.29
-      '@coinmasters/toolbox-ripple': 11.0.29
-      '@coinmasters/toolbox-utxo': 11.0.29
+      '@coinmasters/toolbox-cosmos': 11.0.41
+      '@coinmasters/toolbox-evm': 11.0.41
+      '@coinmasters/toolbox-ripple': 11.0.41
+      '@coinmasters/toolbox-utxo': 11.0.41
       '@keepkey/keepkey-sdk': ^0.2.57
       bitcoinjs-lib: 5.2.0
     dependencies:
-      '@coinmasters/tokens': 3.7.29
-      '@coinmasters/toolbox-cosmos': 11.0.29
-      '@coinmasters/toolbox-evm': 11.0.29
-      '@coinmasters/toolbox-ripple': 11.0.29
-      '@coinmasters/toolbox-utxo': 11.0.29
-      '@coinmasters/types': 4.7.29
+      '@coinmasters/tokens': 3.7.41
+      '@coinmasters/toolbox-cosmos': 11.0.41
+      '@coinmasters/toolbox-evm': 11.0.41
+      '@coinmasters/toolbox-ripple': 11.0.41
+      '@coinmasters/toolbox-utxo': 11.0.41
+      '@coinmasters/types': 4.7.41
       '@cosmjs/math': 0.32.3
       '@cosmjs/stargate': 0.31.1
       '@keepkey/keepkey-sdk': 0.2.57
       '@pioneer-platform/loggerdog': 8.3.1(@types/node@20.12.8)
-      '@pioneer-platform/pioneer-caip': 9.2.26
-      '@pioneer-platform/pioneer-coins': 9.2.21(@types/node@20.12.8)
+      '@pioneer-platform/pioneer-caip': 9.2.32
+      '@pioneer-platform/pioneer-coins': 9.2.23(@types/node@20.12.8)
       '@types/bchaddrjs': 0.4.0
       bchaddrjs: 0.5.2
       bitcoinjs-lib: 5.2.0
@@ -1931,11 +1698,11 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@coinmasters/wallet-wc@11.0.29(@coinmasters/toolbox-cosmos@11.0.29)(@coinmasters/toolbox-evm@11.0.29)(@cosmjs/amino@0.31.1)(@cosmjs/encoding@0.31.1)(@cosmjs/math@0.31.1)(@cosmjs/proto-signing@0.31.1)(@cosmjs/stargate@0.31.1)(@types/react@18.3.1)(cosmjs-types@0.8.0)(react@18.3.1):
-    resolution: {integrity: sha512-Un7zr78fNSmYGc++M9SrDgO2eCT6ADFEntTxtI+EYQ8ENjXYQtjotS+mTtb8nNaySa/kWRMBCxV8fwjCDZKuMA==}
+  /@coinmasters/wallet-wc@11.0.41(@coinmasters/toolbox-cosmos@11.0.41)(@coinmasters/toolbox-evm@11.0.41)(@cosmjs/amino@0.31.1)(@cosmjs/encoding@0.31.1)(@cosmjs/math@0.31.1)(@cosmjs/proto-signing@0.31.1)(@cosmjs/stargate@0.31.1)(@types/react@18.3.1)(cosmjs-types@0.8.0)(react@18.3.1):
+    resolution: {integrity: sha512-26U6mfKbq2hROTeQkgG+/jQCPAdbsTYwcZC7T0ywL3xUQN7akCTqSp24DbQ7fABoYfJ5POxDcmW0ohoh1wi7EA==}
     peerDependencies:
-      '@coinmasters/toolbox-cosmos': 11.0.29
-      '@coinmasters/toolbox-evm': 11.0.29
+      '@coinmasters/toolbox-cosmos': 11.0.41
+      '@coinmasters/toolbox-evm': 11.0.41
       '@cosmjs/amino': 0.31.1
       '@cosmjs/encoding': 0.31.1
       '@cosmjs/math': 0.31.1
@@ -1943,9 +1710,9 @@ packages:
       '@cosmjs/stargate': 0.31.1
       cosmjs-types: ^0.8.0
     dependencies:
-      '@coinmasters/toolbox-cosmos': 11.0.29
-      '@coinmasters/toolbox-evm': 11.0.29
-      '@coinmasters/types': 4.7.29
+      '@coinmasters/toolbox-cosmos': 11.0.41
+      '@coinmasters/toolbox-evm': 11.0.41
+      '@coinmasters/types': 4.7.41
       '@cosmjs/amino': 0.31.1
       '@cosmjs/encoding': 0.31.1
       '@cosmjs/math': 0.31.1
@@ -1985,9 +1752,9 @@ packages:
   /@cosmjs/amino@0.31.1:
     resolution: {integrity: sha512-kkB9IAkNEUFtjp/uwHv95TgM8VGJ4VWfZwrTyLNqBDD1EpSX2dsNrmUe7k8OMPzKlZUFcKmD4iA0qGvIwzjbGA==}
     dependencies:
-      '@cosmjs/crypto': 0.31.1
-      '@cosmjs/encoding': 0.31.1
-      '@cosmjs/math': 0.31.1
+      '@cosmjs/crypto': 0.31.3
+      '@cosmjs/encoding': 0.31.3
+      '@cosmjs/math': 0.31.3
       '@cosmjs/utils': 0.31.3
     dev: false
 
@@ -2003,21 +1770,21 @@ packages:
   /@cosmjs/amino@0.32.0:
     resolution: {integrity: sha512-i1ehEZLQo8HUGY78eum+1ZrDQ48QSkHKy0zOTBOMqce6TiwACIC5kOjRSOWdRQDILcPFzPVrbS2dIgtrdd0ykg==}
     dependencies:
-      '@cosmjs/crypto': 0.32.0
-      '@cosmjs/encoding': 0.32.0
-      '@cosmjs/math': 0.32.0
+      '@cosmjs/crypto': 0.32.3
+      '@cosmjs/encoding': 0.32.3
+      '@cosmjs/math': 0.32.3
       '@cosmjs/utils': 0.32.3
     dev: false
 
   /@cosmjs/crypto@0.31.1:
     resolution: {integrity: sha512-4R/SqdzdVzd4E5dpyEh1IKm5GbTqwDogutyIyyb1bcOXiX/x3CrvPI9Tb4WSIMDLvlb5TVzu2YnUV51Q1+6mMA==}
     dependencies:
-      '@cosmjs/encoding': 0.31.1
-      '@cosmjs/math': 0.31.1
+      '@cosmjs/encoding': 0.31.3
+      '@cosmjs/math': 0.31.3
       '@cosmjs/utils': 0.31.3
       '@noble/hashes': 1.4.0
       bn.js: 5.2.1
-      elliptic: 6.5.4
+      elliptic: 6.5.5
       libsodium-wrappers-sumo: 0.7.13
     dev: false
 
@@ -2036,12 +1803,12 @@ packages:
   /@cosmjs/crypto@0.32.0:
     resolution: {integrity: sha512-h8Fuff9QtHeHAZXB8Mjpk8sYQSqOd484GtD1NAJRCqfXifanNUeZOaXAQkcHbA0eg/IYa+ev7+gOPxm9HkSshQ==}
     dependencies:
-      '@cosmjs/encoding': 0.32.0
-      '@cosmjs/math': 0.32.0
+      '@cosmjs/encoding': 0.32.3
+      '@cosmjs/math': 0.32.3
       '@cosmjs/utils': 0.32.3
       '@noble/hashes': 1.4.0
       bn.js: 5.2.1
-      elliptic: 6.5.4
+      elliptic: 6.5.5
       libsodium-wrappers-sumo: 0.7.13
     dev: false
 
@@ -2053,7 +1820,7 @@ packages:
       '@cosmjs/utils': 0.32.3
       '@noble/hashes': 1.4.0
       bn.js: 5.2.1
-      elliptic: 6.5.4
+      elliptic: 6.5.5
       libsodium-wrappers-sumo: 0.7.13
     dev: false
 
@@ -2130,10 +1897,10 @@ packages:
   /@cosmjs/proto-signing@0.31.1:
     resolution: {integrity: sha512-hipbBVrssPu+jnmRzQRP5hhS/mbz2nU7RvxG/B1ZcdNhr1AtZC5DN09OTUoEpMSRgyQvScXmk/NTbyf+xmCgYg==}
     dependencies:
-      '@cosmjs/amino': 0.31.1
-      '@cosmjs/crypto': 0.31.1
-      '@cosmjs/encoding': 0.31.1
-      '@cosmjs/math': 0.31.1
+      '@cosmjs/amino': 0.31.3
+      '@cosmjs/crypto': 0.31.3
+      '@cosmjs/encoding': 0.31.3
+      '@cosmjs/math': 0.31.3
       '@cosmjs/utils': 0.31.3
       cosmjs-types: 0.8.0
       long: 4.0.0
@@ -2155,9 +1922,9 @@ packages:
     resolution: {integrity: sha512-9401CI0U5rvKMmYrEN4DAl7wvRd5PwfOTPgxoee+O0d3LzK4FUbTjnNIM7DeUi0zaQw/qU3vSbA3ZcMqPifSbQ==}
     dependencies:
       '@cosmjs/amino': 0.32.0
-      '@cosmjs/crypto': 0.32.0
-      '@cosmjs/encoding': 0.32.0
-      '@cosmjs/math': 0.32.0
+      '@cosmjs/crypto': 0.32.3
+      '@cosmjs/encoding': 0.32.3
+      '@cosmjs/math': 0.32.3
       '@cosmjs/utils': 0.32.3
       cosmjs-types: 0.9.0
     dev: false
@@ -2212,8 +1979,8 @@ packages:
     dependencies:
       '@confio/ics23': 0.6.8
       '@cosmjs/amino': 0.32.0
-      '@cosmjs/encoding': 0.32.0
-      '@cosmjs/math': 0.32.0
+      '@cosmjs/encoding': 0.32.3
+      '@cosmjs/math': 0.32.3
       '@cosmjs/proto-signing': 0.32.0
       '@cosmjs/stream': 0.32.3
       '@cosmjs/tendermint-rpc': 0.32.3
@@ -3162,11 +2929,11 @@ packages:
       '@parcel/watcher-win32-x64': 2.4.1
     dev: false
 
-  /@pioneer-platform/helpers@4.0.3:
-    resolution: {integrity: sha512-AdqhEMd4yXvWEXM5A6BF+XEapjwb8retJS2vRiPtGoMmvUpoqxrDHExNU9TXvTq7BnbBBvs2DyQjwjgF+ECpng==}
+  /@pioneer-platform/helpers@4.0.10:
+    resolution: {integrity: sha512-xy/OT2VGbo2a8nJ4L/vErE0QupBG2XfdVqsxzV0HjouaGBHMFVY/JypmtKrOf2nGA/GSH2IUxb+XoS7TShsOuw==}
     dependencies:
-      '@coinmasters/tokens': 3.7.29
-      '@coinmasters/types': 4.7.29
+      '@coinmasters/tokens': 3.7.41
+      '@coinmasters/types': 4.7.41
       '@noble/hashes': 1.4.0
       '@pioneer-platform/loggerdog': 8.3.1(@types/node@18.15.13)
       '@types/node': 18.15.13
@@ -3201,8 +2968,8 @@ packages:
       - '@types/node'
     dev: false
 
-  /@pioneer-platform/pioneer-caip@9.2.26:
-    resolution: {integrity: sha512-CtJDwZXWYVogrbRZV6e5Bkrp/54xpoNufkAsvTQ83vPuJ0oz434NWaxFgfXAUy+ipdfhRwp/dF1JyjLm/zP+2g==}
+  /@pioneer-platform/pioneer-caip@9.2.32:
+    resolution: {integrity: sha512-q7YUEpzxuioNHJ8G/7YNFYpA9yaemO4rYyfOB6GdUUcNI7xmivS6FI18aH47192PZty37xlxzuGsPFbAuMDDiQ==}
     dev: false
 
   /@pioneer-platform/pioneer-client@9.2.5(ramda@0.30.0):
@@ -3214,8 +2981,8 @@ packages:
       - ramda
     dev: false
 
-  /@pioneer-platform/pioneer-coins@9.2.21(@types/node@18.15.13):
-    resolution: {integrity: sha512-G3m2SzhyAKwyuZmCAay/bYsu7eCXXmR/kZmfeOM/lv0B0m0txeaR3pQhvzGt515FiqbJze0QXUNxZyZ93X/IBw==}
+  /@pioneer-platform/pioneer-coins@9.2.23(@types/node@18.15.13):
+    resolution: {integrity: sha512-4UET5BANaOcMaYOhr9I//+6iIl2ffryljoxhqZDS6wb0HWPOqj/46oOcJ1/dt24JEr8+jJJxGWTVX36nCzwvyQ==}
     dependencies:
       '@pioneer-platform/loggerdog': 8.3.1(@types/node@18.15.13)
       bignumber.js: 9.1.2
@@ -3226,8 +2993,8 @@ packages:
       - '@types/node'
     dev: false
 
-  /@pioneer-platform/pioneer-coins@9.2.21(@types/node@20.12.8):
-    resolution: {integrity: sha512-G3m2SzhyAKwyuZmCAay/bYsu7eCXXmR/kZmfeOM/lv0B0m0txeaR3pQhvzGt515FiqbJze0QXUNxZyZ93X/IBw==}
+  /@pioneer-platform/pioneer-coins@9.2.23(@types/node@20.12.8):
+    resolution: {integrity: sha512-4UET5BANaOcMaYOhr9I//+6iIl2ffryljoxhqZDS6wb0HWPOqj/46oOcJ1/dt24JEr8+jJJxGWTVX36nCzwvyQ==}
     dependencies:
       '@pioneer-platform/loggerdog': 8.3.1(@types/node@20.12.8)
       bignumber.js: 9.1.2
@@ -3238,8 +3005,17 @@ packages:
       - '@types/node'
     dev: false
 
-  /@pioneer-platform/pioneer-discovery@0.0.7:
-    resolution: {integrity: sha512-6GPVUDhc6XQBGhMHpopo2Qlp6+HZ13yBQojb/Trxu8spSKorh7+geVIf1oZXC4l3tstBKKqW04vWTn4lLUs/pg==}
+  /@pioneer-platform/pioneer-discovery@0.0.15(@types/node@18.15.13):
+    resolution: {integrity: sha512-4o5g7cmf/bx+pzE9i+qC/QyCRv5oyqO9KzH199hr2fXwcpsfiMAjIXMWC0akasVXjsSWdJ6EnWeY6fWifwpDLg==}
+    dependencies:
+      '@coinmasters/tokens': 3.7.41
+      '@coinmasters/types': 4.7.41
+      '@pioneer-platform/loggerdog': 8.3.1(@types/node@18.15.13)
+      '@pioneer-platform/pioneer-caip': 9.2.32
+    transitivePeerDependencies:
+      - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
     dev: false
 
   /@pkgjs/parseargs@0.11.0:
@@ -3344,7 +3120,7 @@ packages:
     dependencies:
       '@noble/curves': 1.2.0
       '@noble/hashes': 1.3.3
-      '@scure/base': 1.1.3
+      '@scure/base': 1.1.6
     dev: false
 
   /@scure/bip39@1.2.1:
@@ -3547,6 +3323,7 @@ packages:
 
   /@swagger-api/apidom-ns-json-schema-draft-4@1.0.0-alpha.5:
     resolution: {integrity: sha512-aDmcpGikL5JZmDTg7J6EJfLFjtUmX/MfduS4hQeopFCkw91dZsqxO10j7KEiRVVuJBuGStbYoHI5aIsQTlebzA==}
+    requiresBuild: true
     dependencies:
       '@babel/runtime-corejs3': 7.24.6
       '@swagger-api/apidom-ast': 1.0.0-alpha.5
@@ -6171,25 +5948,6 @@ packages:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
     dev: true
 
-  /framer-motion@11.1.7(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-cW11Pu53eDAXUEhv5hEiWuIXWhfkbV32PlgVISn7jRdcAiVrJ1S03YQQ0/DzoswGYYwKi4qYmHHjCzAH52eSdQ==}
-    peerDependencies:
-      '@emotion/is-prop-valid': '*'
-      react: ^18.0.0
-      react-dom: ^18.0.0
-    peerDependenciesMeta:
-      '@emotion/is-prop-valid':
-        optional: true
-      react:
-        optional: true
-      react-dom:
-        optional: true
-    dependencies:
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      tslib: 2.6.2
-    dev: false
-
   /framer-motion@11.2.10(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-/gr3PLZUVFCc86a9MqCUboVrALscrdluzTb3yew+2/qKBU8CX6nzs918/SRBRCqaPbx0TZP10CB6yFgK2C5cYQ==}
     peerDependencies:
@@ -6815,7 +6573,7 @@ packages:
       '@babel/parser': 7.24.5
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.2
-      semver: 7.6.0
+      semver: 7.6.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -7108,6 +6866,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       yallist: 4.0.0
+    dev: true
 
   /magic-string@0.30.10:
     resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
@@ -7119,7 +6878,7 @@ packages:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
     engines: {node: '>=10'}
     dependencies:
-      semver: 7.6.0
+      semver: 7.6.2
     dev: false
 
   /make-error@1.3.6:
@@ -8329,6 +8088,7 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
+    dev: true
 
   /semver@7.6.2:
     resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
@@ -8336,7 +8096,6 @@ packages:
     hasBin: true
     requiresBuild: true
     dev: false
-    optional: true
 
   /set-blocking@2.0.0:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
@@ -8798,7 +8557,7 @@ packages:
       bindings: 1.5.0
       bn.js: 4.12.0
       create-hmac: 1.1.7
-      elliptic: 6.5.4
+      elliptic: 6.5.5
       nan: 2.19.0
     dev: false
 
@@ -9599,6 +9358,7 @@ packages:
 
   /yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
+    dev: true
 
   /yaml@1.10.2:
     resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
